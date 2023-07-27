@@ -1,14 +1,3 @@
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
 //image times out after a few seconds, try to fix
 function showSlides(n) {
   let i;
