@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Event Tracker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- link to bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navigation">
+        <span id="title">Flavor Impersonator</span>
+        <span> 
+        <button><a href="">Log In</a></button> 
+        <button><a href="">Sign Up</a></button> 
+        </span>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./browseRecipes.html">Browse Recipes</a></li>
+                <li><a href="./submitRecipes.html">Submit Recipes</a></li>
+                <li><a href="./userProfile.html">User Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="slideshow-container">
+<!-- adjust container width to reach full screen width-->
+            <div class="slides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="slideImg" src="../images/pastry.jpg">
+            </div>
+            
+            <div class="slides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="slideImg" src="../images/pelmini.jpg">
+            </div>
+            
+            <div class="slides fade">
+                <div class="numbertext">3 / 3</div>
+                <img class="slideImg" src="../images/stew.jpg">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="../../models/index.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../../utils/auth.js"></script>
+</body>
+</html>
+
