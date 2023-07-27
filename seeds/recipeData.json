@@ -5,8 +5,8 @@
       "ingredients": "Fettuccine pasta, Chicken breast, Heavy cream, Butter, Garlic, Parmesan cheese, Salt, Black pepper",
       "instructions": "1. Cook the fettuccine pasta according to the package instructions. \n2. Season chicken breast with salt and pepper, then cook until done. \n3. In a separate pan, melt butter and sauté garlic. \n4. Pour in heavy cream and bring to a simmer. \n5. Stir in grated Parmesan cheese until creamy. \n6. Slice the cooked chicken and add it to the sauce. \n7. Toss the cooked pasta with the sauce and chicken. \n8. Serve with additional grated Parmesan cheese on top.",
       "link_to_recipe": "https://www.example.com/copycat-olive-garden-chicken-alfredo",
-      
-      
+      "date_created": "2023-07-26T10:00:00Z",
+      "user_id": 1
     },
     {
       "name": "Copycat Starbucks Caramel Macchiato",
@@ -14,8 +14,8 @@
       "ingredients": "Espresso, Milk, Vanilla syrup, Caramel sauce, Whipped cream",
       "instructions": "1. Brew a shot of espresso (or strong coffee). \n2. In a separate cup, mix milk and vanilla syrup. \n3. Steam or heat the milk until it's frothy. \n4. Pour the frothy milk over the espresso. \n5. Drizzle caramel sauce on top. \n6. Add a dollop of whipped cream. \n7. Optionally, you can add more caramel sauce for extra sweetness.",
       "link_to_recipe": "https://www.example.com/copycat-starbucks-caramel-macchiato",
-   
-      
+      "date_created": "2023-07-26T11:30:00Z",
+      "user_id": 2
     },
     {
       "name": "Copycat Outback Bloomin' Onion",
@@ -23,17 +23,20 @@
       "ingredients": "Large sweet onion, Buttermilk, Flour, Paprika, Cayenne pepper, Salt, Black pepper, Vegetable oil",
       "instructions": "1. Cut the top and bottom of the onion, then remove the skin. \n2. Slice the onion vertically, leaving about 1 inch from the bottom uncut. \n3. Soak the onion in buttermilk for at least an hour. \n4. In a bowl, mix flour, paprika, cayenne pepper, salt, and black pepper. \n5. Dredge the onion in the seasoned flour mixture. \n6. Heat vegetable oil in a deep fryer. \n7. Fry the onion until golden brown and crispy. \n8. Serve the Bloomin' Onion with your favorite dipping sauce.",
       "link_to_recipe": "https://www.example.com/copycat-outback-bloomin-onion",
-   
-    
+      "date_created": "2023-07-26T13:15:00Z",
+      "user_id": 3
     },
-    {
-        "name": "Shoney's Strawberry Pie",
-        "description": "A delicious and refreshing strawberry pie just like the one at Shoney's",
-        "ingredients": "1 pre-baked pie crust, 1 quart fresh strawberries, 1 cup granulated sugar, 3 tablespoons cornstarch, 1 cup water, 1 package (3 ounces) strawberry gelatin, Whipped cream (for topping)",
-        "instructions": "1. Wash and hull the strawberries. Reserve a few strawberries for garnish. \n2. Mash half of the strawberries in a bowl and slice the remaining strawberries. \n3. In a saucepan, combine sugar and cornstarch. Stir in water. \n4. Cook over medium heat, stirring constantly, until the mixture thickens and becomes clear. \n5. Remove the saucepan from heat and stir in the strawberry gelatin until dissolved. \n6. Add the mashed strawberries to the gelatin mixture and mix well. \n7. Let the mixture cool to room temperature. \n8. Gently fold in the sliced strawberries. \n9. Pour the strawberry filling into the pre-baked pie crust. \n10. Chill the pie in the refrigerator for at least 4 hours or until set. \n11. Garnish the pie with whipped cream and reserved strawberries before serving.",
-        "link_to_recipe": "https://www.example.com/shoneys-strawberry-pie",
-     
-      
-      }
+    
+        {
+          "name": "Shoney's Strawberry Pie",
+          "description": "A delicious and refreshing strawberry pie just like the one at Shoney's",
+          "ingredients": "1 pre-baked pie crust, 1 quart fresh strawberries, 1 cup granulated sugar, 3 tablespoons cornstarch, 1 cup water, 1 package (3 ounces) strawberry gelatin, Whipped cream (for topping)",
+          "instructions": "1. Wash and hull the strawberries. Reserve a few strawberries for garnish. \n2. Mash half of the strawberries in a bowl and slice the remaining strawberries. \n3. In a saucepan, combine sugar and cornstarch. Stir in water. \n4. Cook over medium heat, stirring constantly, until the mixture thickens and becomes clear. \n5. Remove the saucepan from heat and stir in the strawberry gelatin until dissolved. \n6. Add the mashed strawberries to the gelatin mixture and mix well. \n7. Let the mixture cool to room temperature. \n8. Gently fold in the sliced strawberries. \n9. Pour the strawberry filling into the pre-baked pie crust. \n10. Chill the pie in the refrigerator for at least 4 hours or until set. \n11. Garnish the pie with whipped cream and reserved strawberries before serving.",
+          "link_to_recipe": "https://www.example.com/shoneys-strawberry-pie",
+          "date_created": "2023-07-26T14:30:00Z",
+          "user_id": 1
+        }
+         
   ]
+  
   

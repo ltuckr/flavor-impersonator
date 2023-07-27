@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
-const { User, Recipe, Comment } = require('../models'); 
+const { User, Recipe, Comments } = require('../models'); 
 const userData = require('./userData.json');
-const projectData = require('./recipeData.json');
-const commentData = require('./commentData.json'); 
+const recipeData = require('./recipeData.json');
+const commentData = require('./commentData.json');
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -14,15 +14,14 @@ const seedDatabase = async () => {
   });
 
   // Seed recipes
-  const projects = await Recipe.bulkCreate(projectData);
+  const recipes = await Recipe.bulkCreate(recipeData); 
 
   // Seed comments
-  const comment = await Comments.bulkCreate(commentData);
+  const comments = await Comments.bulkCreate(commentData); 
 
   // Assign comments to recipes and users
   for (const comment of comments) {
-    const randomRecipe = Recipe[Math.floor(Math.random() * recipes.length)];
-    const randomUser = users[Math.floor(Math.random() * users.length)];
+    const randomRecipe = recipes[Math.floor(Math.random() * recipes.length)]; 
     await comment.setRecipe(randomRecipe);
     await comment.setUser(randomUser);
   }
