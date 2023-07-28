@@ -1,18 +1,18 @@
 [
     {
         "content": "This recipe is amazing!",
-        "user_id": 1,
-        "date_created": "2023-07-26T10:00:00Z"
+        "recipe_id": 1,
+        "date_created": "07-20-2023"
       },
       {
         "content": "I tried this recipe and it turned out great.",
-        "user_id": 2,
-        "date_created": "2023-07-26T11:30:00Z"
+        "recipe_id": 2,
+        "date_created": "07-22-2023"
       },
       {
         "content": "I have a question about this recipe.",
-        "user_id": 3,
-        "date_created": "2023-07-26T13:15:00Z"
+        "recipe_id": 3,
+        "date_created": "07-24-2023"
       }
     ]
     
