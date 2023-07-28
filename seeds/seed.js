@@ -14,16 +14,20 @@ const seedDatabase = async () => {
   });
 
   // Seed recipes
-  const recipes = await Recipe.bulkCreate(recipeData); 
+  // const recipes = await Recipe.bulkCreate(recipeData); 
+  for (const recipe of recipeData) {
+    await Recipe.create({
+      ...recipe,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+  }
 
-  // Seed comments
-  const comments = await Comments.bulkCreate(commentData); 
 
-  // Assign comments to recipes and users
-  for (const comment of comments) {
-    const randomRecipe = recipes[Math.floor(Math.random() * recipes.length)]; 
-    await comment.setRecipe(randomRecipe);
-    await comment.setUser(randomUser);
+  for (const comment of commentData) {
+    await Comments.create({
+      ...comment,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
   }
 
   process.exit(0);
