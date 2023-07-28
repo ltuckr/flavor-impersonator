@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Event Tracker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- link to bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- handlebars link -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</head>
+
+<body>
+        <nav class="navigation">
+        <span id="title">Flavor Impersonator</span>
+        <span> 
+        <!-- Conditionally render login or logout links -->
+        {{#if logged_in}}
+        <a href="/profile">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+        {{!-- <button><a href="">Log In</a></button> 
+        <button><a href="">Sign Up</a></button>  --}}
+        </span>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./browseRecipes.handlebars">Browse Recipes</a></li>
+                <li><a href="./submitRecipes.handlebars">Submit Recipes</a></li>
+                <li><a href="./profile.handlebars">User Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container container-fluid">
+    {{!-- Render the sub layout --}}
+    <div class="container">
+        <div class="slideshow-container">
+            {{!-- Slide 1 --}}
+            <div class="slides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="slideImg" src="../images/pastry.jpg"> {{!--make connection currently using placeholder img--}}
+            </div>
+
+            {{!-- Slide 2 --}}
+            <div class="slides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="slideImg" src="../images/pelmini.jpg"> {{!--make connection--}}
+            </div>
+
+            {{!-- Slide 3 --}}
+            <div class="slides fade">
+                <div class="numbertext">3 / 3</div>
+                <img class="slideImg" src="../images/stew.jpg"> {{!-- make connection--}}
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="../../models/index.js"></script>
+    <script src="../../public/js/login.js"></>
+    <script src="../../utils/auth.js"></script>
+    <!-- Render script for logged in users only -->
+    {{#if logged_in}}
+    <script src="../../public/js/logout.js"></script>
+    {{/if}}
+</body>
+</html>
+
+
+
