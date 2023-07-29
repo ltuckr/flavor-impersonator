@@ -13,7 +13,6 @@ router.get('/', async (req, res) => {
                 },
             ],
         })
-
         // serialize data so the template can read it
         const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
 
@@ -37,9 +36,7 @@ router.get('/recipe/:id', async (req, res) => {
                 },
             ],
         });
-
         const recipe = recipeData.get({ plain: true });
-
         res.render('recipe', {
             ...recipe,
             loggin_in: req.session.loggin_in
@@ -57,9 +54,7 @@ router.get('/profile', withAuth, async (req, res) => {
         attributes: { exclude: ['password'] },
         include: [{ model: Recipe }],
       });
-  
       const user = userData.get({ plain: true });
-  
       res.render('profile', {
         ...user,
         logged_in: true
@@ -70,12 +65,12 @@ router.get('/profile', withAuth, async (req, res) => {
   });
   
   router.get('/login', (req, res) => {
+    console.log("in homeroutes /login route");
     // If the user is already logged in, redirect the request to another route
-    if (req.session.logged_in) {
-      res.redirect('/profile');
-      return;
-    }
-  
+    // if (req.session.logged_in) {
+    //   res.redirect('/profile');
+    //   return;
+    // }
     res.render('login');
   });
   

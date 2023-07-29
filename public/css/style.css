@@ -21,13 +21,21 @@ body {
 .slideImg {
     vertical-align: middle;
     margin: auto;
+    width: 300px;
+    height: 200px;
 }
 
+.post {
+    border-style: solid;
+    border-color: black;
+  }
+  
 .container{
 max-width: 100%;
 margin: 0px;
 padding: 0px;
-background-color: darkblue;
+/* background-color: darkblue; */
+background-color: yellow;
 }
 
 /* Slideshow container */
