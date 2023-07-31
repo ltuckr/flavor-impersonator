@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // validate.js to check for valid URLs and email addresses
 const validator = require('validator');
 
@@ -16,3 +17,12 @@ module.exports = {
   isValidURL,
 
 };
+=======
+module.exports = {
+    format_date: (date) => {
+      // Format date as MM/DD/YYYY
+      return date.toLocaleDateString();
+    },
+  };
+  
+>>>>>>> a936622d05d770e6e0303e0b694e86e60fdce1ce
