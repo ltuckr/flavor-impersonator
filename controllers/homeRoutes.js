@@ -60,7 +60,10 @@ router.get('/recipe/:id', async (req, res) => {
                 },
             ],
         });
+        // organizing the data
         const recipe = recipeData.get({ plain: true });
+
+        // rendering the html through handlebars
         res.render('recipeDetails', {
             ...recipe,
             loggin_in: req.session.loggin_in
@@ -105,6 +108,30 @@ router.get('/profile', withAuth, async (req, res) => {
       return;
     }
     res.render('signup');
+  });
+
+  router.get('/submit-recipes', async (req, res) => {
+    try {
+        // get all Recipes and JOIN with user data
+        const recipeData = await Recipe.findAll({
+            include: [
+                {
+                    model: User,
+                    attributes: ['name'],
+                },
+            ],
+        })
+        // serialize data so the template can read it
+        const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
+  
+        // Pass serialized data and session flag into template
+        res.render('submitRecipes', {
+            recipes,
+            loggin_in: req.session.loggin_in
+        });
+    } catch (err) {
+        res.status(500).json(err);
+    }
   });
 
   module.exports = router;
