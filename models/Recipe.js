@@ -27,8 +27,17 @@ Recipe.init(
       type: DataTypes.TEXT,
       allowNull: false,
     },
+    link_to_image: {
+      type: DataTypes.TEXT,
+      validate: {
+        isUrl: true,
+      },
+    },
     link_to_recipe: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
+      validate: {
+        isUrl: true,
+      },
     },
     date_created: {
       type: DataTypes.DATE,
