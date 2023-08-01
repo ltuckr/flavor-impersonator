@@ -26,6 +26,30 @@ router.get('/', async (req, res) => {
     }
 });
 
+router.get('/recipes', async (req, res) => {
+  try {
+      // get all Recipes and JOIN with user data
+      const recipeData = await Recipe.findAll({
+          include: [
+              {
+                  model: User,
+                  attributes: ['name'],
+              },
+          ],
+      })
+      // serialize data so the template can read it
+      const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
+
+      // Pass serialized data and session flag into template
+      res.render('browseRecipes', {
+          recipes,
+          loggin_in: req.session.loggin_in
+      });
+  } catch (err) {
+      res.status(500).json(err);
+  }
+});
+
 router.get('/recipe/:id', async (req, res) => {
     try {
         const recipeData = await Recipe.findByPk(req.params.id, {
@@ -37,7 +61,7 @@ router.get('/recipe/:id', async (req, res) => {
             ],
         });
         const recipe = recipeData.get({ plain: true });
-        res.render('recipe', {
+        res.render('recipeDetails', {
             ...recipe,
             loggin_in: req.session.loggin_in
         });
@@ -65,13 +89,22 @@ router.get('/profile', withAuth, async (req, res) => {
   });
   
   router.get('/login', (req, res) => {
-    console.log("in homeroutes /login route");
     // If the user is already logged in, redirect the request to another route
-    // if (req.session.logged_in) {
-    //   res.redirect('/profile');
-    //   return;
-    // }
+    if (req.session.logged_in) {
+      res.redirect('/profile');
+      return;
+    }
     res.render('login');
   });
   
+
+  router.get('/signup', (req, res) => {
+    // If the user is already logged in, redirect the request to another route
+    if (req.session.logged_in) {
+      res.redirect('/profile');
+      return;
+    }
+    res.render('signup');
+  });
+
   module.exports = router;
