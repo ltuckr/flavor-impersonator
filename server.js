@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
-//helmet was here
+//helmet was here.
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
