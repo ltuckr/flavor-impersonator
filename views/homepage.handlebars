@@ -1,13 +1,17 @@
-<!-- Loop over each object in the recipes array -->
+
 {{#each recipes as |recipe| }}
-    <div class="container col-md-12 mb-4 recipe">
-        <div class="row">
-            <div class="col-md-2 "><img class="slideImg" src="{{recipe.link_to_image}}"></img></div>
-            <div class="col-md-10">
-                <h2><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h2>
-                <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
-                <p>{{recipe.description}}</p>
+<div class="container" style="max-width: 600px; margin: 10px auto; float: left;">
+    <div class="row" style="border: 1px solid black; border-radius: 10px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); padding: 10px; display: flex;">
+        <div class="col-md-4">
+            <img class="recipe-image" src="{{recipe.link_to_image}}" alt="Recipe Image" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-md-8" style="padding-left: 10px;">
+            <div style="display: flex; flex-direction: column; height: 100%;">
+                <h3 style="margin-bottom: 10px;"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h3>
+                <p style="flex-grow: 1;">{{recipe.description}}</p>
+                <p style="margin-top: auto;">Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
             </div>
         </div>
     </div>
+</div>
 {{/each}}
