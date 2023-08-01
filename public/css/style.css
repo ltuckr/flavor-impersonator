@@ -243,3 +243,19 @@ background-color: yellow;
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-md-2 {
+    /* display: flex; */
+    flex: 0 0 12%;
+    max-width: 12%;
+    /* align-items: flex-start; */
+}
+
+.col-md-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
