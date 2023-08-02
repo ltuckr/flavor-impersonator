@@ -62,6 +62,15 @@ To install and run the Employee Tracker, follow these steps: <br>
 - https://developer.mozilla.org/en-US/
 - https://www.youtube.com/
 - https://stackoverflow.com/
+- https://helmetjs.github.io/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+- https://blog.logrocket.com/using-helmet-node-js-secure-application/
+
+
+## Technology <a name="technology"></a>
+
+Helmet.js - A helpful Node.js package that enables you to secure HTTP headers returned by your Express apps, in this case, a Content Security Policy, which can assist in preventing Cross-Site Scripting (XSS) and other attacks by defining which sources can load resources onto your web page. Scripts, stylesheets, and pictures are a few examples of the types of external content that can be accepted or blocked by changing their CSP headers.
+
 
 
 ## License <a name="license"></a>
