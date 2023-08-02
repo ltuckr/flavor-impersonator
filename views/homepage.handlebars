@@ -1,4 +1,4 @@
-
+{{!-- 
 {{#each recipes as |recipe| }}
 <div class="container" style="max-width: 600px; margin: 10px auto; float: left;">
     <div class="row" style="border: 1px solid black; border-radius: 10px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); padding: 10px; display: flex;">
@@ -14,4 +14,49 @@
         </div>
     </div>
 </div>
-{{/each}}
+{{/each}} --}}
+
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="trending-box p-4 border rounded">
+                <h3 class="mb-3">Top 3 Trending!</h3>
+                <div class="row">
+                    {{#each recipes as |recipe| }}
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{recipe.link_to_image}}" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h5>
+                                <p class="card-text">{{recipe.description}}</p>
+                                <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="trending-box p-4 border rounded">
+                <h3 class="mb-3">Sample Title</h3>
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="sample_image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="/sample-link">Sample Title</a></h5>
+                                <p class="card-text">This is a sample description.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
