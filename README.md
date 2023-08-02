@@ -1,7 +1,7 @@
 # flavor-impersonator
 
 # Description
-A copycat recipe app  that combines the use of Node.js, Express.js, Handlebars.js, MySQL, and Sequelize. It allows users to discover and share their favorite restaurant or famous dish recipes, replicating them at home. 
+A copycat recipe app with that combines the use of Node.js, Express.js, Handlebars.js, MySQL, and Sequelize. It allows users to discover and share their favorite restaurant or famous dish recipes, replicating them at home. 
 
 
 ## Table of Contents
@@ -65,6 +65,7 @@ To install and run the Employee Tracker, follow these steps: <br>
 - https://helmetjs.github.io/
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 - https://blog.logrocket.com/using-helmet-node-js-secure-application/
+- https://cybeready.com/helmet-content-security-policy
 
 
 ## Technology <a name="technology"></a>
