@@ -69,8 +69,6 @@ To install and run the Employee Tracker, follow these steps: <br>
 
 ## Technology <a name="technology"></a>
 
-
-
 Helmet.js - A helpful Node.js package that enables you to secure HTTP headers returned by your Express apps, in this case, a Content Security Policy, which can assist in preventing Cross-Site Scripting (XSS) and other attacks by defining which sources can load resources onto your web page. Scripts, stylesheets, and pictures are a few examples of the types of external content that can be accepted or blocked by changing their CSP headers.
 
 
