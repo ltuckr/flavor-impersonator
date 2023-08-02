@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Chef",
+    "email": "saltychocolateballs@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Natalie",
+    "email": "momof5@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "bakerBetsy",
+    "email": "ilikecake@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Sammy",
+    "email": "sammy@example.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Jennifer",
+    "email": "jennifer@example.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Dave78",
+    "email": "dave78@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "ChocoLover",
+    "email": "chocoholic@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "PizzaFan2000",
+    "email": "pizza.passion@example.com",
+    "password": "password12345"
+  },
+  {
+    "name": "FitnessJane",
+    "email": "fitjane@hotmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "VeggieCrunch",
+    "email": "veggieeater@example.com",
+    "password": "password12345"
+  },
+  {
+    "name": "SushiLover123",
+    "email": "sushiaddict@gmail.com",
+    "password": "password12345"
+  }
+]
