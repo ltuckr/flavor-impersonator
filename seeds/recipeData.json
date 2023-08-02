@@ -157,5 +157,76 @@
             "link_to_image": "https://copykat.com/wp-content/uploads/2021/02/Chilis-Baby-Back-Ribs-Pin-2.jpg",
             "date_created": "08-10-2023"
           },
-   
+          {
+            "name": "Copycat TGI Fridays Jack Daniel's Glazed Ribs",
+            "description": "Sweet and smoky ribs with TGI Fridays' famous Jack Daniel's glaze.(As seen on IMAPAMPCHEF)",
+            "ingredients": "Pork baby back ribs, Brown sugar, Jack Daniel's whiskey, Pineapple juice, Soy sauce, Ketchup, Garlic, Ginger, Black pepper",
+            "instructions": "1. Marinate baby back ribs in a mixture of brown sugar, Jack Daniel's whiskey, pineapple juice, soy sauce, ketchup, minced garlic, minced ginger, and black pepper. \n2. Grill the ribs until fully cooked and caramelized. \n3. Serve the ribs hot and enjoy the sweet and smoky flavor.",
+            "link_to_recipe": "https://imapampchef.com/2022/09/02/copycat-tgi-fridays-jack-daniels-sauce-with-baby-back-ribs-pressure-cooker-video/",
+            "link_to_image": "https://i0.wp.com/imapampchef.com/wp-content/uploads/2022/08/20220830_1803061-rotated.jpg?resize=740%2C987&ssl=1",
+            "date_created": "11-02-2020"
+          },
+          {
+            "name": "Copycat Olive Garden Breadsticks",
+            "description": "Soft and garlicky breadsticks inspired by Olive Garden's famous breadsticks.(As seen on HANDLE THE HEAT)",
+            "ingredients": "All-purpose flour, Yeast, Sugar, Salt, Warm water, Butter, Garlic powder, Parsley",
+            "instructions": "1. Mix flour, yeast, sugar, and salt in a bowl. \n2. Add warm water and knead until the dough is smooth and elastic. \n3. Let the dough rise until doubled in size. \n4. Divide the dough into sticks and bake until golden brown. \n5. Melt butter and mix with garlic powder and parsley. \n6. Brush the warm breadsticks with the garlic butter mixture before serving.",
+            "link_to_recipe": "https://handletheheat.com/copycat-olive-garden-breadsticks/",
+            "link_to_image": "https://handletheheat.com/wp-content/uploads/2013/12/copycat-olive-garden-breadsticks-SQUARE-550x550.jpg",
+            "date_created": "12-05-2021"
+          },
+          {
+            "name": "Copycat PF Chang's Lettuce Wraps",
+            "description": "Flavorful and satisfying lettuce wraps just like the ones at PF Chang's.(As seen on LIFE IN THE LOFTHOUSE)",
+            "ingredients": "Ground chicken, Shiitake mushrooms, Water chestnuts, Green onions, Garlic, Ginger, Soy sauce, Hoisin sauce, Rice vinegar, Sesame oil, Iceberg lettuce leaves",
+            "instructions": "1. Cook ground chicken in a skillet until browned. \n2. Add chopped shiitake mushrooms, water chestnuts, minced green onions, minced garlic, and minced ginger. \n3. Stir in soy sauce, hoisin sauce, rice vinegar, and sesame oil. \n4. Cook until the mixture is heated through and the flavors blend. \n5. Serve the lettuce wraps with the chicken filling wrapped in iceberg lettuce leaves.",
+            "link_to_recipe": "https://life-in-the-lofthouse.com/pf-changs-chicken-lettuce-wraps/",
+            "link_to_image": "https://life-in-the-lofthouse.com/wp-content/uploads/2019/08/PF-Changs-Chicken-Lettuce-Wraps42.jpg",
+            "date_created":"01-01-2023"
+          },
+              {
+                "name": "Copycat Starbucks Pumpkin Spice Latte",
+                "description": "Indulge in the warm and cozy flavors of Starbucks' Pumpkin Spice Latte at home.(As seen on AVERIE COOKS)",
+                "ingredients": "Espresso, Pumpkin puree, Milk, Pumpkin spice blend (cinnamon, ginger, nutmeg, cloves), Vanilla extract, Sugar, Whipped cream, Caramel sauce",
+                "instructions": "1. Brew a shot of espresso (or strong coffee). \n2. In a saucepan, mix pumpkin puree, milk, pumpkin spice blend, vanilla extract, and sugar. \n3. Heat the mixture until hot and frothy. \n4. Pour the pumpkin mixture over the espresso. \n5. Top with whipped cream and drizzle with caramel sauce.",
+                "link_to_recipe": "https://www.averiecooks.com/copycat-pumpkin-spice-latte/",
+                "link_to_image": "https://www.averiecooks.com/wp-content/uploads/2021/08/pumpkinspicelatte-8.jpg",
+                "date_created": "09-15-2022"
+              },
+              {
+                "name": "Copycat Shake Shack Burger",
+                "description": "Make your own delicious Shake Shack-style burger with this copycat recipe.(As seen on TASTING TABLE)",
+                "ingredients": "Ground beef, Hamburger buns, American cheese slices, Lettuce, Tomato, Shack Sauce (mayonnaise, ketchup, mustard, pickle brine, paprika), Butter",
+                "instructions": "1. Divide ground beef into patties and cook on a hot grill or skillet. \n2. Toast the hamburger buns on the grill. \n3. Prepare Shack Sauce by combining mayonnaise, ketchup, mustard, pickle brine, and paprika. \n4. Assemble the burgers with lettuce, tomato, Shack Sauce, and cooked beef patties. \n5. Melt butter on the buns. \n6. Serve the Shake Shack burgers hot and enjoy!",
+                "link_to_recipe": "https://www.tastingtable.com/686052/shake-shack-cheese-burger-recipe/",
+                "link_to_image": "https://www.tastingtable.com/img/gallery/shake-shack-cheese-burger-recipe/intro-1640803629.webp",
+                "date_created": "06-25-2023"
+              },
+              {
+                "name": "Copycat Cracker Barrel Hashbrown Casserole",
+                "description": "Cheesy and creamy hashbrown casserole just like the one at Cracker Barrel.(As seen on THE COZY COOK)",
+                "ingredients": "Frozen shredded hash browns, Cheddar cheese, Sour cream, Cream of chicken soup, Onion, Butter, Salt, Black pepper, Cornflakes, Butter (for topping)",
+                "instructions": "1. In a large bowl, mix hash browns, cheddar cheese, sour cream, cream of chicken soup, diced onion, melted butter, salt, and black pepper. \n2. Transfer the mixture to a baking dish. \n3. Crush cornflakes and mix with melted butter to make the topping. \n4. Sprinkle the cornflake topping over the casserole. \n5. Bake until the casserole is bubbly and the topping is golden brown. \n6. Serve the hashbrown casserole hot and enjoy!",
+                "link_to_recipe": "https://thecozycook.com/hashbrown-casserole/",
+                "link_to_image": "https://thecozycook.com/wp-content/uploads/2019/04/Cracker-Barrel-Hashbrown-Casserole.jpg",
+                "date_created": "10-18-2020"
+              },
+              {
+                "name": "Copycat Cheesecake Factory Godiva Chocolate Cheesecake",
+                "description": "Decadent and rich Godiva chocolate cheesecake inspired by The Cheesecake Factory.(As seen on INSANELY GOOD RECIPES)",
+                "ingredients": "Chocolate cookie crumbs, Butter, Cream cheese, Sugar, Godiva chocolate, Sour cream, Vanilla extract, Eggs, Whipped cream, Godiva chocolate shavings (for garnish)",
+                "instructions": "1. Mix chocolate cookie crumbs with melted butter to make the crust. \n2. Press the crust mixture into the bottom of a springform pan. \n3. In a separate bowl, beat cream cheese, sugar, melted Godiva chocolate, sour cream, and vanilla extract until smooth. \n4. Add eggs one at a time, mixing well after each addition. \n5. Pour the cheesecake batter over the crust in the pan. \n6. Bake until the cheesecake is set but still slightly jiggly in the center. \n7. Let the cheesecake cool completely before refrigerating. \n8. Serve the Godiva chocolate cheesecake chilled, topped with whipped cream and chocolate shavings.",
+                "link_to_recipe": "https://insanelygoodrecipes.com/godiva-chocolate-cheesecake/",
+                "link_to_image": "https://insanelygoodrecipes.com/wp-content/uploads/2021/09/Slice-of-Godiva-Chocolate-Cheesecake-with-Whipped-Cream-683x1024.webp",
+                "date_created": "11-30-2021"
+              },
+              {
+                "name": "Copycat Red Lobster Lobster Bisque",
+                "description": "Rich and velvety lobster bisque just like the one at Red Lobster.(As seen on THE FOOD XP)",
+                "ingredients": "Lobster tails, Butter, Onion, Carrot, Celery, Tomato paste, Lobster stock, Heavy cream, Sherry, Paprika, Cayenne pepper, Salt, Black pepper",
+                "instructions": "1. In a large pot, melt butter and sauté chopped onion, carrot, and celery until softened. \n2. Add tomato paste and cook for a few minutes. \n3. Pour in lobster stock and bring to a simmer. \n4. Add chopped lobster meat and simmer until cooked. \n5. Remove some lobster meat for garnish and puree the rest of the soup until smooth. \n6. Stir in heavy cream, sherry, paprika, cayenne pepper, salt, and black pepper. \n7. Serve the lobster bisque hot, garnished with reserved lobster meat.",
+                "link_to_recipe": "https://thefoodxp.com/red-lobster-lobster-bisque-copycat-recipe/",
+                "link_to_image": "https://thefoodxp.com/wp-content/uploads/2022/02/Red-Lobster-lobster-bisque.webp",
+                "date_created": "12-28-2022"
+              }
             ]
