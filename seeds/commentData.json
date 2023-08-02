@@ -1,18 +1,117 @@
 [
-    {
-        "content": "This recipe is amazing!",
-        "recipe_id": 1,
-        "date_created": "07-20-2023"
-      },
-      {
-        "content": "I tried this recipe and it turned out great.",
-        "recipe_id": 2,
-        "date_created": "07-22-2023"
-      },
-      {
-        "content": "I have a question about this recipe.",
-        "recipe_id": 3,
-        "date_created": "07-24-2023"
-      }
-    ]
-    
+  {
+    "content": "This recipe is amazing!",
+    "recipe_id": 1,
+    "date_created": "07-20-2023"
+  },
+  {
+    "content": "I tried this recipe and it turned out great.",
+    "recipe_id": 2,
+    "date_created": "07-22-2023"
+  },
+  {
+    "content": "I have a question about this recipe.",
+    "recipe_id": 3,
+    "date_created": "07-24-2023"
+  },
+  {
+    "content": "The flavors in this dish are perfectly balanced!",
+    "recipe_id": 1,
+    "date_created": "07-25-2023"
+  },
+  {
+    "content": "I added a pinch of extra spice to the recipe, and it was a game-changer!",
+    "recipe_id": 2,
+    "date_created": "07-26-2023"
+  },
+  {
+    "content": "Could someone please suggest a substitute for an ingredient in this recipe?",
+    "recipe_id": 3,
+    "date_created": "07-28-2023"
+  },
+  {
+    "content": "I made this recipe for a family gathering, and everyone loved it!",
+    "recipe_id": 1,
+    "date_created": "07-30-2023"
+  },
+  {
+    "content": "For a healthier version, I used alternative sweeteners, and it still tasted fantastic!",
+    "recipe_id": 2,
+    "date_created": "07-31-2023"
+  },
+  {
+    "content": "I'm a beginner cook, and this recipe was easy to follow. Thank you!",
+    "recipe_id": 3,
+    "date_created": "08-01-2020"
+  },
+  {
+    "content": "Wow, this dish was restaurant-quality!",
+    "recipe_id": 4,
+    "date_created": "05-02-2021"
+  },
+  {
+    "content": "I'm not a fan of spicy food, so I toned down the heat in this recipe, and it turned out great!",
+    "recipe_id": 4,
+    "date_created": "01-03-2023"
+  },
+  {
+    "content": "The presentation of this recipe was so impressive that it looked like a masterpiece!",
+    "recipe_id": 5,
+    "date_created": "09-05-2022"
+  },
+  {
+    "content": "I'm a vegetarian, and I substituted the meat with tofu, and it was delicious!",
+    "recipe_id": 5,
+    "date_created": "11-06-2021"
+  },
+  {
+    "content": "This recipe was quick and easy to make, perfect for busy weeknights.",
+    "recipe_id": 6,
+    "date_created": "08-07-2021"
+  },
+  {
+    "content": "I made a gluten-free version of this recipe, and it was just as tasty!",
+    "recipe_id": 6,
+    "date_created": "08-09-2022"
+  },
+  {
+    "content": "I'm a chocoholic, and this dessert hit all the right spots!",
+    "recipe_id": 7,
+    "date_created": "04-11-2023"
+  },
+  {
+    "content": "I think adding some crushed nuts on top would enhance the texture.",
+    "recipe_id": 7,
+    "date_created": "06-12-2023"
+  },
+  {
+    "content": "This recipe brought back memories of my childhood. My grandma used to make it for me.",
+    "recipe_id": 8,
+    "date_created": "02-15-2023"
+  },
+  {
+    "content": "I made this for a potluck, and everyone was asking for the recipe!",
+    "recipe_id": 8,
+    "date_created": "08-16-2021"
+  },
+  {
+    "content": "The combination of flavors in this recipe is unique and delightful!",
+    "recipe_id": 9,
+    "date_created": "08-18-2021"
+  },
+  {
+    "content": "I'm going to try making this with a twist of lemon zest next time.",
+    "recipe_id": 9,
+    "date_created": "08-20-2022"
+  },
+  {
+    "content": "This recipe is perfect for special occasions. I made it for my anniversary dinner!",
+    "recipe_id": 10,
+    "date_created": "06-22-2022"
+  },
+  {
+    "content": "I had to adjust the cooking time slightly, but the end result was fantastic!",
+    "recipe_id": 10,
+    "date_created": "01-23-2023"
+  }
+]

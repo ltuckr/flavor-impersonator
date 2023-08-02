@@ -1,42 +1,232 @@
 [
+  {
+    "name": "Copycat Olive Garden Chicken Alfredo",
+    "description": "Creamy and rich chicken Alfredo just like the one at Olive Garden. (As seen on CREME DE LA CRUMB)",
+    "ingredients": "Fettuccine pasta, Chicken breast, Heavy cream, Butter, Garlic, Parmesan cheese, Salt, Black pepper",
+    "instructions": "1. Cook the fettuccine pasta according to the package instructions. \n2. Season chicken breast with salt and pepper, then cook until done. \n3. In a separate pan, melt butter and sauté garlic. \n4. Pour in heavy cream and bring to a simmer. \n5. Stir in grated Parmesan cheese until creamy. \n6. Slice the cooked chicken and add it to the sauce. \n7. Toss the cooked pasta with the sauce and chicken. \n8. Serve with additional grated Parmesan cheese on top.",
+    "link_to_recipe": "https://www.lecremedelacrumb.com/copycat-olive-garden-chicken-alfredo/",
+    "link_to_image": "https://bing.com/th?id=OSK.6dd8aa4b3ca3835fffdf271df4e8ce49",
+    "date_created": "05-14-2023"
+  },
+  {
+    "name": "Copycat Starbucks Caramel Macchiato",
+    "description": "Homemade version of Starbucks' popular Caramel Macchiato. (As seen on Cooktoria)",
+    "ingredients": "Espresso, Milk, Vanilla syrup, Caramel sauce, Whipped cream",
+    "instructions": "1. Brew a shot of espresso (or strong coffee). \n2. In a separate cup, mix milk and vanilla syrup. \n3. Steam or heat the milk until it's frothy. \n4. Pour the frothy milk over the espresso. \n5. Drizzle caramel sauce on top. \n6. Add a dollop of whipped cream. \n7. Optionally, you can add more caramel sauce for extra sweetness.",
+    "link_to_recipe": "https://cooktoria.com/caramel-macchiato/",
+    "link_to_image": "https://cooktoria.com/wp-content/uploads/2022/10/Caramel-Macchiato-Recipe-1-768x1152.jpg",
+    "date_created": "02-21-2023"
+  },
+  {
+    "name": "Copycat Outback Bloomin' Onion",
+    "description": "Crispy and delicious homemade version of Outback's famous Bloomin' Onion. (As seen on SAVORY EXPERIMENTS)",
+    "ingredients": "Large sweet onion, Buttermilk, Flour, Paprika, Cayenne pepper, Salt, Black pepper, Vegetable oil",
+    "instructions": "1. Cut the top and bottom of the onion, then remove the skin. \n2. Slice the onion vertically, leaving about 1 inch from the bottom uncut. \n3. Soak the onion in buttermilk for at least an hour. \n4. In a bowl, mix flour, paprika, cayenne pepper, salt, and black pepper. \n5. Dredge the onion in the seasoned flour mixture. \n6. Heat vegetable oil in a deep fryer. \n7. Fry the onion until golden brown and crispy. \n8. Serve the Bloomin' Onion with your favorite dipping sauce.",
+    "link_to_recipe": "https://www.savoryexperiments.com/blooming-onion/",
+    "link_to_image": "https://www.savoryexperiments.com/wp-content/uploads/2020/07/blooming-onion-FB.jpg",
+    "date_created": "01-01-2023"
+  },
+  
+  {
+    "name": "Shoney's Strawberry Pie",
+    "description": "A delicious and refreshing strawberry pie just like the one at Shoney's (As seen on COPYKAT)",
+    "ingredients": "1 pre-baked pie crust, 1 quart fresh strawberries, 1 cup granulated sugar, 3 tablespoons cornstarch, 1 cup water, 1 package (3 ounces) strawberry gelatin, Whipped cream (for topping)",
+    "instructions": "1. Wash and hull the strawberries. Reserve a few strawberries for garnish. \n2. Mash half of the strawberries in a bowl and slice the remaining strawberries. \n3. In a saucepan, combine sugar and cornstarch. Stir in water. \n4. Cook over medium heat, stirring constantly, until the mixture thickens and becomes clear. \n5. Remove the saucepan from heat and stir in the strawberry gelatin until dissolved. \n6. Add the mashed strawberries to the gelatin mixture and mix well. \n7. Let the mixture cool to room temperature. \n8. Gently fold in the sliced strawberries. \n9. Pour the strawberry filling into the pre-baked pie crust. \n10. Chill the pie in the refrigerator for at least 4 hours or until set. \n11. Garnish the pie with whipped cream and reserved strawberries before serving.",
+    "link_to_recipe": "https://copykat.com/shoneys-strawberry-pie-ii/",
+    "link_to_image": "https://copykat.com/wp-content/uploads/2022/05/Shoneys-Strawberry-Pie-Pin-2-1024x1536.jpg",
+    "date_created": "04-10-2023"
+  },
+       
+  
     {
-      "name": "Copycat Olive Garden Chicken Alfredo",
-      "description": "Creamy and rich chicken Alfredo just like the one at Olive Garden. (As seen on CREME DE LA CRUMB)",
-      "ingredients": "Fettuccine pasta, Chicken breast, Heavy cream, Butter, Garlic, Parmesan cheese, Salt, Black pepper",
-      "instructions": "1. Cook the fettuccine pasta according to the package instructions. \n2. Season chicken breast with salt and pepper, then cook until done. \n3. In a separate pan, melt butter and sauté garlic. \n4. Pour in heavy cream and bring to a simmer. \n5. Stir in grated Parmesan cheese until creamy. \n6. Slice the cooked chicken and add it to the sauce. \n7. Toss the cooked pasta with the sauce and chicken. \n8. Serve with additional grated Parmesan cheese on top.",
-      "link_to_recipe": "https://www.lecremedelacrumb.com/copycat-olive-garden-chicken-alfredo/",
-      "link_to_image": "https://bing.com/th?id=OSK.6dd8aa4b3ca3835fffdf271df4e8ce49",
-      "date_created": "05-14-2023"
+      "name": "Copycat Chipotle Chicken Burrito Bowl",
+      "description": "Make your own Chipotle-style chicken burrito bowl at home with this easy recipe.(As seen on THE SPRUCE EATS)",
+      "ingredients": "Boneless chicken thighs, Lime juice, Garlic, Cumin, Paprika, Salt, Black pepper, Cooking oil, Cooked rice, Black beans, Corn, Salsa, Avocado, Sour cream, Fresh cilantro",
+      "instructions": "1. Marinate chicken thighs in lime juice, garlic, cumin, paprika, salt, and black pepper. \n2. Heat cooking oil in a skillet and cook the marinated chicken until done. \n3. In a bowl, layer cooked rice, black beans, corn, and cooked chicken. \n4. Top with salsa, sliced avocado, sour cream, and fresh cilantro.",
+      "link_to_recipe": "https://www.thespruceeats.com/copycat-chipotle-chicken-burrito-bowl-4173869",
+      "link_to_image": "https://www.thespruceeats.com/thmb/JpB3IEUXnSN0I_29-_SbnvujEWk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/copycat-chipotle-chicken-burrito-bowl-4173869-hero-01-12a58fec59284f0cac31a49a80380fcd.jpg",
+      "date_created": "03-05-2023"
     },
     {
-      "name": "Copycat Starbucks Caramel Macchiato",
-      "description": "Homemade version of Starbucks' popular Caramel Macchiato. (As seen on Cooktoria)",
-      "ingredients": "Espresso, Milk, Vanilla syrup, Caramel sauce, Whipped cream",
-      "instructions": "1. Brew a shot of espresso (or strong coffee). \n2. In a separate cup, mix milk and vanilla syrup. \n3. Steam or heat the milk until it's frothy. \n4. Pour the frothy milk over the espresso. \n5. Drizzle caramel sauce on top. \n6. Add a dollop of whipped cream. \n7. Optionally, you can add more caramel sauce for extra sweetness.",
-      "link_to_recipe": "https://cooktoria.com/caramel-macchiato/",
-      "link_to_image": "https://cooktoria.com/wp-content/uploads/2022/10/Caramel-Macchiato-Recipe-1-768x1152.jpg",
-      "date_created": "02-21-2023"
+      "name": "Copycat KFC Fried Chicken",
+      "description": "Crispy and flavorful fried chicken just like KFC's secret recipe.(As seen on COPYKAT)",
+      "ingredients": "Chicken pieces, All-purpose flour, Salt, Paprika, Onion powder, Garlic powder, Dried thyme, Dried basil, Dried oregano, Black pepper, Buttermilk, Cooking oil",
+      "instructions": "1. Mix flour, salt, paprika, onion powder, garlic powder, thyme, basil, oregano, and black pepper in a bowl to make the seasoning mix. \n2. Dip chicken pieces in buttermilk and coat them with the seasoned flour. \n3. Let the coated chicken rest for a few minutes. \n4. Heat cooking oil in a deep fryer or skillet. \n5. Fry the chicken until golden brown and fully cooked. \n6. Drain excess oil on paper towels before serving.",
+      "link_to_recipe": "https://copykat.com/kfc-fried-chicken/",
+      "link_to_image": "https://copykat.com/wp-content/uploads/2021/07/KFC-Fried-Chicken-Pin-1.jpg",
+      "date_created": "06-15-2023"
     },
     {
-      "name": "Copycat Outback Bloomin' Onion",
-      "description": "Crispy and delicious homemade version of Outback's famous Bloomin' Onion. (As seen on SAVORY EXPERIMENTS)",
-      "ingredients": "Large sweet onion, Buttermilk, Flour, Paprika, Cayenne pepper, Salt, Black pepper, Vegetable oil",
-      "instructions": "1. Cut the top and bottom of the onion, then remove the skin. \n2. Slice the onion vertically, leaving about 1 inch from the bottom uncut. \n3. Soak the onion in buttermilk for at least an hour. \n4. In a bowl, mix flour, paprika, cayenne pepper, salt, and black pepper. \n5. Dredge the onion in the seasoned flour mixture. \n6. Heat vegetable oil in a deep fryer. \n7. Fry the onion until golden brown and crispy. \n8. Serve the Bloomin' Onion with your favorite dipping sauce.",
-      "link_to_recipe": "https://www.savoryexperiments.com/blooming-onion/",
-      "link_to_image": "https://www.savoryexperiments.com/wp-content/uploads/2020/07/blooming-onion-FB.jpg",
-      "date_created": "01-01-2023"
+      "name": "Copycat Red Lobster Cheddar Bay Biscuits",
+      "description": "Cheesy and savory biscuits inspired by Red Lobster's famous Cheddar Bay Biscuits.(As seen on DAMN DELICIOUS) ",
+      "ingredients": "All-purpose flour, Baking powder, Salt, Garlic powder, Cayenne pepper, Butter, Shredded cheddar cheese, Buttermilk, Fresh parsley, Garlic butter",
+      "instructions": "1. Mix flour, baking powder, salt, garlic powder, and cayenne pepper in a bowl. \n2. Cut in cold butter and stir in shredded cheddar cheese. \n3. Add buttermilk and mix until the dough forms. \n4. Drop spoonfuls of dough onto a baking sheet and bake until golden brown. \n5. Brush with garlic butter and sprinkle with chopped fresh parsley before serving.",
+      "link_to_recipe": "https://damndelicious.net/2014/02/03/red-lobster-cheddar-bay-biscuits/",
+      "link_to_image": "https://s23209.pcdn.co/wp-content/uploads/2014/02/121205_DD_Red-Lobster-Ched-Biscuits_076edit-760x1140.jpg",
+      "date_created": "07-02-2023"
+    },
+    {
+      "name": "Copycat In-N-Out Double-Double Burger",
+      "description": "Recreate the iconic In-N-Out Double-Double Burger with this copycat recipe(As seen on ALLRECIPES).",
+      "ingredients": "Ground beef, Hamburger buns, American cheese slices, Lettuce, Tomato, Onion, Pickles, Mayonnaise, Ketchup, Mustard",
+      "instructions": "1. Divide ground beef into patties and cook on a hot grill or skillet. \n2. Toast the hamburger buns on the grill. \n3. Assemble the burgers by layering lettuce, tomato, onion, pickles, and mayonnaise, ketchup, and mustard on the bun. \n4. Place the cooked beef patties on the bun and top with American cheese slices. \n5. Serve the burgers hot and enjoy!",
+      "link_to_recipe": "https://www.allrecipes.com/copycat-in-n-out-double-double-animal-style-burger-7152747",
+      "link_to_image": "https://www.allrecipes.com/thmb/gzAfy294P2F2jWJtL2p6-39D0mA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7152747CopycatIn-N-OutDouble-DoubleAnimal-StyleBurger4x3-57f69733c9104f739a33b4f26d2a05db.jpg",
+      "date_created": "09-08-2023"
+    },
+    {
+      "name": "Copycat Panera Bread Broccoli Cheddar Soup",
+      "description": "Warm and comforting broccoli cheddar soup just like the one at Panera Bread.(As seen on GIRL WHO ATE EVERYTHING)",
+      "ingredients": "Butter, Onion, Carrot, Celery, Broccoli, Chicken broth, All-purpose flour, Milk, Half-and-half, Shredded cheddar cheese, Salt, Black pepper, Nutmeg",
+      "instructions": "1. In a large pot, sauté butter, onion, carrot, and celery until softened. \n2. Add chopped broccoli and chicken broth, then simmer until broccoli is tender. \n3. In a separate bowl, mix flour, milk, and half-and-half to make a thickening mixture. \n4. Slowly pour the thickening mixture into the pot, stirring constantly. \n5. Add shredded cheddar cheese, salt, black pepper, and a pinch of nutmeg. \n6. Simmer until the soup thickens and the cheese melts. \n7. Serve hot and garnish with additional shredded cheddar if desired.",
+      "link_to_recipe": "https://www.the-girl-who-ate-everything.com/panera-broccoli-cheese-soup/",
+      "link_to_image": "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2015/09/panera-broccoli-soup-4-660x988.jpg",
+      "date_created": "11-11-2020"
     },
     
-    {
-      "name": "Shoney's Strawberry Pie",
-      "description": "A delicious and refreshing strawberry pie just like the one at Shoney's",
-      "ingredients": "1 pre-baked pie crust, 1 quart fresh strawberries, 1 cup granulated sugar, 3 tablespoons cornstarch, 1 cup water, 1 package (3 ounces) strawberry gelatin, Whipped cream (for topping)",
-      "instructions": "1. Wash and hull the strawberries. Reserve a few strawberries for garnish. \n2. Mash half of the strawberries in a bowl and slice the remaining strawberries. \n3. In a saucepan, combine sugar and cornstarch. Stir in water. \n4. Cook over medium heat, stirring constantly, until the mixture thickens and becomes clear. \n5. Remove the saucepan from heat and stir in the strawberry gelatin until dissolved. \n6. Add the mashed strawberries to the gelatin mixture and mix well. \n7. Let the mixture cool to room temperature. \n8. Gently fold in the sliced strawberries. \n9. Pour the strawberry filling into the pre-baked pie crust. \n10. Chill the pie in the refrigerator for at least 4 hours or until set. \n11. Garnish the pie with whipped cream and reserved strawberries before serving.",
-      "link_to_recipe": "https://copykat.com/shoneys-strawberry-pie-ii/",
-      "link_to_image": "https://copykat.com/wp-content/uploads/2022/05/Shoneys-Strawberry-Pie-Pin-2-1024x1536.jpg",
-      "date_created": "04-10-2023"
-    }
-         
-  ]
-  
-  
+        {
+          "name": "Copycat McDonald's Big Mac",
+          "description": "Create your own version of the iconic McDonald's Big Mac with this copycat recipe.(As seen on AN AFFAIR FROM THE HEART)",
+          "ingredients": "Ground beef, Hamburger buns, American cheese slices, Lettuce, Pickles, Onion, Special sauce (mayonnaise, ketchup, mustard, relish, vinegar, sugar, onion powder, garlic powder, paprika)",
+          "instructions": "1. Divide ground beef into patties and cook on a hot grill or skillet. \n2. Toast the hamburger buns on the grill. \n3. Prepare the special sauce by combining mayonnaise, ketchup, mustard, relish, vinegar, sugar, onion powder, garlic powder, and paprika in a bowl. \n4. Assemble the burgers by spreading the special sauce on the bottom bun, followed by lettuce, pickles, and onion. \n5. Place a cooked beef patty on top and add a slice of American cheese. \n6. Repeat the layers with another bun and patty. \n7. Serve the Big Macs hot and enjoy!",
+          "link_to_recipe": "https://anaffairfromtheheart.com/copycat-mcdonalds-big-mac/",
+          "link_to_image": "https://anaffairfromtheheart.com/wp-content/uploads/2017/11/Copy-Cat-McDonalds-Big-Mac-4.jpg",
+          "date_created": "12-15-2023"
+        },
+        {
+          "name": "Copycat Cheesecake Factory Original Cheesecake",
+          "description": "Rich and creamy cheesecake just like the one at The Cheesecake Factory.(As seen on TASTE OF HOME)",
+          "ingredients": "Graham crackers, Sugar, Unsalted butter, Cream cheese, Sour cream, All-purpose flour, Vanilla extract, Eggs, Fresh berries (for garnish)",
+          "instructions": "1. Crush graham crackers and mix with sugar and melted butter to make the crust. \n2. Press the crust mixture into the bottom of a springform pan. \n3. In a separate bowl, beat cream cheese, sugar, sour cream, flour, and vanilla extract until smooth. \n4. Add eggs one at a time, mixing well after each addition. \n5. Pour the cream cheese mixture over the crust in the pan. \n6. Bake until the cheesecake is set but still slightly jiggly in the center. \n7. Let the cheesecake cool completely before refrigerating. \n8. Serve chilled and garnish with fresh berries.",
+          "link_to_recipe": "https://www.tasteofhome.com/article/the-cheesecake-factory-cheesecake-recipe-copycat/",
+          "link_to_image": "https://www.tasteofhome.com/wp-content/uploads/2022/09/TOH-cheesecake-FT22_270480_ST_08_23_2.jpg?resize=700,467",
+          "date_created": "07-20-2023"
+        },
+        {
+          "name": "Copycat Wendy's Spicy Chicken Sandwich",
+          "description": "Make your own spicy chicken sandwich inspired by Wendy's popular menu item.(As seen on THE GIRL ON BLOOR)",
+          "ingredients": "Chicken breast, Buttermilk, Hot sauce, All-purpose flour, Cornstarch, Paprika, Cayenne pepper, Salt, Black pepper, Vegetable oil, Hamburger buns, Lettuce, Tomato, Mayonnaise, Pickles",
+          "instructions": "1. Marinate chicken breast in buttermilk and hot sauce for at least 30 minutes. \n2. In a separate bowl, mix flour, cornstarch, paprika, cayenne pepper, salt, and black pepper to make the breading mixture. \n3. Dredge the marinated chicken in the breading mixture, making sure it's fully coated. \n4. Heat vegetable oil in a skillet and fry the breaded chicken until crispy and golden brown. \n5. Toast the hamburger buns on the skillet. \n6. Assemble the sandwich with lettuce, tomato, mayonnaise, pickles, and the fried chicken. \n7. Serve the spicy chicken sandwich hot and enjoy!",
+          "link_to_recipe": "https://thegirlonbloor.com/wendys-spicy-chicken-sandwich-copycat/",
+          "link_to_image": "https://thegirlonbloor.com/wp-content/uploads/2020/07/Wendys-Spicy-Chicken-Sandwich-11.jpg",
+          "date_created": "04-29-2023"
+        },
+        {
+          "name": "Copycat Texas Roadhouse Rolls",
+          "description": "Soft and buttery rolls inspired by the famous Texas Roadhouse rolls.(As seen on JO COOKS)",
+          "ingredients": "All-purpose flour, Sugar, Active dry yeast, Milk, Butter, Salt, Eggs, Honey cinnamon butter (butter, honey, cinnamon)",
+          "instructions": "1. Mix flour, sugar, yeast, milk, melted butter, salt, and eggs to make the dough. \n2. Knead the dough until smooth and elastic. \n3. Let the dough rise until doubled in size. \n4. Punch down the dough and divide it into rolls. \n5. Let the rolls rise again. \n6. Bake the rolls until golden brown. \n7. Brush the warm rolls with honey cinnamon butter before serving.",
+          "link_to_recipe": "https://www.jocooks.com/recipes/texas-roadhouse-rolls/",
+          "link_to_image": "https://www.jocooks.com/wp-content/uploads/2012/08/texas-roudhouse-rolls-1.jpg",
+          "date_created": "03-28-2023"
+        },
+        {
+          "name": "Copycat Panda Express Orange Chicken",
+          "description": "Sweet and tangy orange chicken just like the one at Panda Express.(As seen on FOOD.com)",
+          "ingredients": "Chicken breast, Cornstarch, Egg, Oil, Orange juice, Soy sauce, Brown sugar, Rice vinegar, Ginger, Garlic, Red pepper flakes, Green onions (for garnish)",
+          "instructions": "1. Cut chicken breast into bite-sized pieces. \n2. Coat the chicken in cornstarch and beaten egg. \n3. Fry the coated chicken in oil until golden brown and crispy. \n4. In a separate pan, mix orange juice, soy sauce, brown sugar, rice vinegar, ginger, garlic, and red pepper flakes to make the sauce. \n5. Add the fried chicken to the sauce and stir until coated. \n6. Serve the orange chicken over rice and garnish with sliced green onions.",
+          "link_to_recipe": "https://www.food.com/recipe/panda-express-orange-chicken-103215#gallery",
+          "link_to_image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_960/v1/img/recipes/10/32/15/W6FoUgXyRnaFTQjc1Nkw_0S9A2630.jpg",
+          "date_created": "05-03-2023"
+        },
+        
+          {
+            "name": "Copycat IHOP Pancakes",
+            "description": "Fluffy and delicious pancakes just like the ones at IHOP.(As seen on LIFE IN THE LOFTHOUSE)",
+            "ingredients": "All-purpose flour, Baking powder, Baking soda, Salt, Buttermilk, Eggs, Sugar, Vanilla extract, Butter",
+            "instructions": "1. In a bowl, mix flour, baking powder, baking soda, and salt. \n2. In a separate bowl, whisk buttermilk, eggs, sugar, and vanilla extract. \n3. Combine the wet and dry ingredients until just combined. \n4. Melt butter on a skillet and pour the pancake batter in circles. \n5. Cook until bubbles form on the surface, then flip and cook until golden brown. \n6. Serve the pancakes hot with your favorite toppings.",
+            "link_to_recipe": "https://life-in-the-lofthouse.com/ihop-pancakes-copycat/",
+            "link_to_image": "https://life-in-the-lofthouse.com/wp-content/uploads/2018/02/IHOP-Pancakes.jpg",
+            "date_created": "06-20-2023"
+          },
+          {
+            "name": "Copycat Olive Garden Minestrone Soup",
+            "description": "Hearty and flavorful minestrone soup just like the one at Olive Garden.(As seen on DINNER AT THE ZOO)",
+            "ingredients": "Olive oil, Onion, Carrot, Celery, Garlic, Zucchini, Green beans, Canned diced tomatoes, Tomato paste, Vegetable broth, Water, Kidney beans, Great Northern beans, Ditalini pasta, Fresh spinach, Dried basil, Dried oregano, Salt, Black pepper, Grated Parmesan cheese (for topping)",
+            "instructions": "1. Sauté onions, carrots, celery, and garlic in olive oil until softened. \n2. Add zucchini, green beans, diced tomatoes, and tomato paste. \n3. Pour in vegetable broth and water. \n4. Add kidney beans, Great Northern beans, and ditalini pasta. \n5. Season with dried basil, dried oregano, salt, and black pepper. \n6. Simmer until the vegetables and pasta are tender. \n7. Stir in fresh spinach until wilted. \n8. Serve the minestrone soup hot and top with grated Parmesan cheese.",
+            "link_to_recipe": "https://www.dinneratthezoo.com/olive-garden-minestrone-soup/",
+            "link_to_image": "https://www.dinneratthezoo.com/wp-content/uploads/2018/07/olive-garden-minestrone-soup-4.jpg",
+            "date_created": "10-07-2022"
+          },
+          {
+            "name": "Copycat Chili's Baby Back Ribs",
+            "description": "Tender and succulent baby back ribs inspired by Chili's famous ribs.(As seen on COPYKAT)",
+            "ingredients": "Baby back ribs, Barbecue sauce, Brown sugar, Paprika, Garlic powder, Onion powder, Salt, Black pepper",
+            "instructions": "1. Rub baby back ribs with a mixture of brown sugar, paprika, garlic powder, onion powder, salt, and black pepper. \n2. Wrap the ribs in foil and bake until tender. \n3. Unwrap the ribs, brush with barbecue sauce, and grill until caramelized. \n4. Slice and serve the baby back ribs hot.",
+            "link_to_recipe": "https://copykat.com/chilis-baby-back-ribs/",
+            "link_to_image": "https://copykat.com/wp-content/uploads/2021/02/Chilis-Baby-Back-Ribs-Pin-2.jpg",
+            "date_created": "08-10-2023"
+          },
+          {
+            "name": "Copycat TGI Fridays Jack Daniel's Glazed Ribs",
+            "description": "Sweet and smoky ribs with TGI Fridays' famous Jack Daniel's glaze.(As seen on IMAPAMPCHEF)",
+            "ingredients": "Pork baby back ribs, Brown sugar, Jack Daniel's whiskey, Pineapple juice, Soy sauce, Ketchup, Garlic, Ginger, Black pepper",
+            "instructions": "1. Marinate baby back ribs in a mixture of brown sugar, Jack Daniel's whiskey, pineapple juice, soy sauce, ketchup, minced garlic, minced ginger, and black pepper. \n2. Grill the ribs until fully cooked and caramelized. \n3. Serve the ribs hot and enjoy the sweet and smoky flavor.",
+            "link_to_recipe": "https://imapampchef.com/2022/09/02/copycat-tgi-fridays-jack-daniels-sauce-with-baby-back-ribs-pressure-cooker-video/",
+            "link_to_image": "https://i0.wp.com/imapampchef.com/wp-content/uploads/2022/08/20220830_1803061-rotated.jpg?resize=740%2C987&ssl=1",
+            "date_created": "11-02-2020"
+          },
+          {
+            "name": "Copycat Olive Garden Breadsticks",
+            "description": "Soft and garlicky breadsticks inspired by Olive Garden's famous breadsticks.(As seen on HANDLE THE HEAT)",
+            "ingredients": "All-purpose flour, Yeast, Sugar, Salt, Warm water, Butter, Garlic powder, Parsley",
+            "instructions": "1. Mix flour, yeast, sugar, and salt in a bowl. \n2. Add warm water and knead until the dough is smooth and elastic. \n3. Let the dough rise until doubled in size. \n4. Divide the dough into sticks and bake until golden brown. \n5. Melt butter and mix with garlic powder and parsley. \n6. Brush the warm breadsticks with the garlic butter mixture before serving.",
+            "link_to_recipe": "https://handletheheat.com/copycat-olive-garden-breadsticks/",
+            "link_to_image": "https://handletheheat.com/wp-content/uploads/2013/12/copycat-olive-garden-breadsticks-SQUARE-550x550.jpg",
+            "date_created": "12-05-2021"
+          },
+          {
+            "name": "Copycat PF Chang's Lettuce Wraps",
+            "description": "Flavorful and satisfying lettuce wraps just like the ones at PF Chang's.(As seen on LIFE IN THE LOFTHOUSE)",
+            "ingredients": "Ground chicken, Shiitake mushrooms, Water chestnuts, Green onions, Garlic, Ginger, Soy sauce, Hoisin sauce, Rice vinegar, Sesame oil, Iceberg lettuce leaves",
+            "instructions": "1. Cook ground chicken in a skillet until browned. \n2. Add chopped shiitake mushrooms, water chestnuts, minced green onions, minced garlic, and minced ginger. \n3. Stir in soy sauce, hoisin sauce, rice vinegar, and sesame oil. \n4. Cook until the mixture is heated through and the flavors blend. \n5. Serve the lettuce wraps with the chicken filling wrapped in iceberg lettuce leaves.",
+            "link_to_recipe": "https://life-in-the-lofthouse.com/pf-changs-chicken-lettuce-wraps/",
+            "link_to_image": "https://life-in-the-lofthouse.com/wp-content/uploads/2019/08/PF-Changs-Chicken-Lettuce-Wraps42.jpg",
+            "date_created":"01-01-2023"
+          },
+              {
+                "name": "Copycat Starbucks Pumpkin Spice Latte",
+                "description": "Indulge in the warm and cozy flavors of Starbucks' Pumpkin Spice Latte at home.(As seen on AVERIE COOKS)",
+                "ingredients": "Espresso, Pumpkin puree, Milk, Pumpkin spice blend (cinnamon, ginger, nutmeg, cloves), Vanilla extract, Sugar, Whipped cream, Caramel sauce",
+                "instructions": "1. Brew a shot of espresso (or strong coffee). \n2. In a saucepan, mix pumpkin puree, milk, pumpkin spice blend, vanilla extract, and sugar. \n3. Heat the mixture until hot and frothy. \n4. Pour the pumpkin mixture over the espresso. \n5. Top with whipped cream and drizzle with caramel sauce.",
+                "link_to_recipe": "https://www.averiecooks.com/copycat-pumpkin-spice-latte/",
+                "link_to_image": "https://www.averiecooks.com/wp-content/uploads/2021/08/pumpkinspicelatte-8.jpg",
+                "date_created": "09-15-2022"
+              },
+              {
+                "name": "Copycat Shake Shack Burger",
+                "description": "Make your own delicious Shake Shack-style burger with this copycat recipe.(As seen on TASTING TABLE)",
+                "ingredients": "Ground beef, Hamburger buns, American cheese slices, Lettuce, Tomato, Shack Sauce (mayonnaise, ketchup, mustard, pickle brine, paprika), Butter",
+                "instructions": "1. Divide ground beef into patties and cook on a hot grill or skillet. \n2. Toast the hamburger buns on the grill. \n3. Prepare Shack Sauce by combining mayonnaise, ketchup, mustard, pickle brine, and paprika. \n4. Assemble the burgers with lettuce, tomato, Shack Sauce, and cooked beef patties. \n5. Melt butter on the buns. \n6. Serve the Shake Shack burgers hot and enjoy!",
+                "link_to_recipe": "https://www.tastingtable.com/686052/shake-shack-cheese-burger-recipe/",
+                "link_to_image": "https://www.tastingtable.com/img/gallery/shake-shack-cheese-burger-recipe/intro-1640803629.webp",
+                "date_created": "06-25-2023"
+              },
+              {
+                "name": "Copycat Cracker Barrel Hashbrown Casserole",
+                "description": "Cheesy and creamy hashbrown casserole just like the one at Cracker Barrel.(As seen on THE COZY COOK)",
+                "ingredients": "Frozen shredded hash browns, Cheddar cheese, Sour cream, Cream of chicken soup, Onion, Butter, Salt, Black pepper, Cornflakes, Butter (for topping)",
+                "instructions": "1. In a large bowl, mix hash browns, cheddar cheese, sour cream, cream of chicken soup, diced onion, melted butter, salt, and black pepper. \n2. Transfer the mixture to a baking dish. \n3. Crush cornflakes and mix with melted butter to make the topping. \n4. Sprinkle the cornflake topping over the casserole. \n5. Bake until the casserole is bubbly and the topping is golden brown. \n6. Serve the hashbrown casserole hot and enjoy!",
+                "link_to_recipe": "https://thecozycook.com/hashbrown-casserole/",
+                "link_to_image": "https://thecozycook.com/wp-content/uploads/2019/04/Cracker-Barrel-Hashbrown-Casserole.jpg",
+                "date_created": "10-18-2020"
+              },
+              {
+                "name": "Copycat Cheesecake Factory Godiva Chocolate Cheesecake",
+                "description": "Decadent and rich Godiva chocolate cheesecake inspired by The Cheesecake Factory.(As seen on INSANELY GOOD RECIPES)",
+                "ingredients": "Chocolate cookie crumbs, Butter, Cream cheese, Sugar, Godiva chocolate, Sour cream, Vanilla extract, Eggs, Whipped cream, Godiva chocolate shavings (for garnish)",
+                "instructions": "1. Mix chocolate cookie crumbs with melted butter to make the crust. \n2. Press the crust mixture into the bottom of a springform pan. \n3. In a separate bowl, beat cream cheese, sugar, melted Godiva chocolate, sour cream, and vanilla extract until smooth. \n4. Add eggs one at a time, mixing well after each addition. \n5. Pour the cheesecake batter over the crust in the pan. \n6. Bake until the cheesecake is set but still slightly jiggly in the center. \n7. Let the cheesecake cool completely before refrigerating. \n8. Serve the Godiva chocolate cheesecake chilled, topped with whipped cream and chocolate shavings.",
+                "link_to_recipe": "https://insanelygoodrecipes.com/godiva-chocolate-cheesecake/",
+                "link_to_image": "https://insanelygoodrecipes.com/wp-content/uploads/2021/09/Slice-of-Godiva-Chocolate-Cheesecake-with-Whipped-Cream-683x1024.webp",
+                "date_created": "11-30-2021"
+              },
+              {
+                "name": "Copycat Red Lobster Lobster Bisque",
+                "description": "Rich and velvety lobster bisque just like the one at Red Lobster.(As seen on THE FOOD XP)",
+                "ingredients": "Lobster tails, Butter, Onion, Carrot, Celery, Tomato paste, Lobster stock, Heavy cream, Sherry, Paprika, Cayenne pepper, Salt, Black pepper",
+                "instructions": "1. In a large pot, melt butter and sauté chopped onion, carrot, and celery until softened. \n2. Add tomato paste and cook for a few minutes. \n3. Pour in lobster stock and bring to a simmer. \n4. Add chopped lobster meat and simmer until cooked. \n5. Remove some lobster meat for garnish and puree the rest of the soup until smooth. \n6. Stir in heavy cream, sherry, paprika, cayenne pepper, salt, and black pepper. \n7. Serve the lobster bisque hot, garnished with reserved lobster meat.",
+                "link_to_recipe": "https://thefoodxp.com/red-lobster-lobster-bisque-copycat-recipe/",
+                "link_to_image": "https://thefoodxp.com/wp-content/uploads/2022/02/Red-Lobster-lobster-bisque.webp",
+                "date_created": "12-28-2022"
+              }
+            ]
