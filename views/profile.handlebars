@@ -1,44 +1,3 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <title>Flavor Impersonator</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- link to bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- handlebars link -->
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-</head>
-
-<body>
-        <nav class="navigation">
-        <span id="title">Flavor Impersonator</span>
-        <span> 
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-        {{!-- <button><a href="">Log In</a></button> 
-        <button><a href="">Sign Up</a></button>  --}}
-        </span>
-        <div>
-            <ul>
-                <li><a href="./layouts/main.handlebars">Home</a></li>
-                <li><a href="./browseRecipes.handlebars">Browse Recipes</a></li>
-                <li><a href="./submitRecipes.handlebars">Submit Recipes</a></li>
-                <li><a href="/">User Profile</a></li>
-                <li><a href="./login.handlebars"> Log In</a></li>
-                <li><a href="./signUp.handlebars">Sign Up</a></li>
-            </ul>
-        </div>
-    </nav>
 <div class="row">
     <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
@@ -50,46 +9,29 @@
         <div class="meal-search">
             <h2 class="title">Saved recipes</h2>
         </div>
+
+        {{#if recipes.length}}
         <div class="meal-result">
             <div id = "meal">
-                <div class="meal-item">
-                    <div class="meal-img">
-                        <img src="../../public/images/pastry.jpg" alt="food"> {{!--connect image to db--}}
+                {{#each recipes as |recipe|}}
+                    <div class="container" style="max-width: 600px; margin: 10px auto; float: left;">
+                        <div class="row" style="border: 1px solid black; border-radius: 10px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); padding: 10px; display: flex;">
+                            <div class="col-md-4">
+                                <img class="recipe-image" src="{{recipe.link_to_image}}" alt="Recipe Image" style="max-width: 100%; height: auto;">
+                            </div>
+                            <div class="col-md-8" style="padding-left: 10px;">
+                                <div style="display: flex; flex-direction: column; height: 100%;">
+                                    <h3 style="margin-bottom: 10px;"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h3>
+                                    <p style="flex-grow: 1;">{{recipe.description}}</p>
+                                    <p style="margin-top: auto;">Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="meal-name">
-                        <h3>{{recipeName}}</h3>
-                        <a href="{{!--connect to db--}}" class = "recipe-btn">Get recipe</a> 
-                    </div>
-                </div>
-                <div class="meal-item">
-                    <div class="meal-img">
-                        <img src="../../public/images/pelmini.jpg" alt="food"> {{!--connect image to db--}}
-                    </div>
-                    <div class="meal-name">
-                        <h3>{{recipeName}}</h3>
-                        <a href="{{!--connect to db--}}" class = "recipe-btn">Get recipe</a>
-                    </div>
-                </div>
-                <div class="meal-item">
-                    <div class="meal-img">
-                        <img src="../../public/images/stew.jpg" alt="food"> {{!--connect image to db--}}
-                    </div>
-                    <div class="meal-name">
-                        <h3>{{recipeName}}</h3>
-                        <a href="{{!--connect to db--}}" class = "recipe-btn">Get recipe</a>
-                    </div>
-                </div>
+                {{/each}}
+
             </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="../public/js/profile.js"></script>
-    <script src="../models/index.js"></script>
-    <script src="../public/js/login.js"></script>
-    <script src="../utils/auth.js"></script>
-    <!-- Render script for logged in users only -->
-    {{#if logged_in}}
-    <script src="../public/js/logout.js"></script>
-    {{/if}}
-</body>
-</html>
+        </div>
+        {{/if}}
+    </div>
+</div>
