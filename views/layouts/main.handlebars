@@ -12,7 +12,16 @@
 
 
 
+a {
+    color: #5F5E4A;
+    text-decoration: none;
+}
 
+a:hover {
+    color:#5F5E4A; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 h1 {
     font-size: 24px;
     font-family: 'Pacifico', cursive;
@@ -22,9 +31,20 @@ h1 {
 .lightcolbg {
     background-color: #f7f6f3;
 }
+.darkcolbg {
+    background-color: #5F5E4A;
+}
 .textcol {
     color: #5F5E4A;
 }
+.lighttextcol {
+    color: #f7f6f3;
+}
+.darkbordcol {
+    border-color: #5F5E4A;
+    border-width: 3px;
+}
+
 
     </style>
 </head>
@@ -39,31 +59,31 @@ h1 {
             </div>
             <div class="col-md-3 text-md-right">
                 {{#if logged_in}}
-                <a class="btn btn-outline mr-2" href="/profile">Profile</a>
+                <a class="btn btn-outline mr-2 lighttextcol" href="/profile">Profile</a>
                 <button class="btn btn-outline" id="logout">Logout</button>
                 {{else}}
-                <a class="btn mr-2 border border-dark textcol fw-bold fst-italic" href="/login">Login</a>
-                <a class="btn border border-dark textcol fw-bold fst-italic" href="/signup">Sign Up</a>
+                <a class="btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic " href="/login">Login</a>
+                <a class="btn border border-dark darkcolbg lighttextcol fw-bold fst-italic " href="/signup">Sign Up</a>
                 {{/if}}
             </div>
         </div>
 
 
-<nav class="navbar navbar-expand-md lightcolbg mt-4">
+<nav class="navbar navbar-expand-md darkcolbg mt-4">
         <div class="container">
             <div class="navbar-collapse navbarcol">
                 <ul class="navbar-nav flex-column flex-md-row">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link lighttextcol" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/recipes">Browse Recipes</a>
+                        <a class="nav-link lighttextcol" href="/recipes">Browse Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/submit-recipes">Submit Recipes</a>
+                        <a class="nav-link lighttextcol" href="/submit-recipes">Submit Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/profile">User Profile</a>
+                        <a class="nav-link lighttextcol" href="/profile">User Profile</a>
                     </li>
                 </ul>
             </div>
