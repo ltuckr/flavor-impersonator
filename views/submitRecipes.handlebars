@@ -1,1 +1,31 @@
-<p>hello, submit recipe content is needed here. testing.</p>
+<style>
+    /*Submit Recipe page */
+.newRecipeForm{
+    text-align: center; 
+    margin-top: 40px;
+}
+
+.submitRecipeInput{
+    width: 40%;
+    margin: 10px;
+}
+.submitRecipeText{
+    width: 40%;
+    height: 300px;
+    margin: 5px;
+}
+</style>
+
+
+<!--Submit Recipe Form -->
+<div id="newRecipeForm" class="newRecipeForm" >
+    <h2>Submit Recipe</h2>
+    
+    <input class="submitRecipeInput" type="text" id="recipeTitle" placeholder="Enter recipe title here"required><br>
+
+    <textarea class="submitRecipeText" id="recipeIngredients" placeholder="Enter ingredients here" required></textarea><br>
+
+    <textarea class="submitRecipeText" id="recipeIngredients" placeholder="Enter directions here" required></textarea><br>
+
+    <button id="submitRecipes">Submit Recipe</button>
+    </div>
