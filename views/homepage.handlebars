@@ -59,6 +59,72 @@
     </div>
 </div>
 
+<div class='modal' id="myModal" tabindex='-1' role='dialog' style="transition: :all 1s ease-out;">
+        <div class='modal-dialog modal-dialog-centered modal-lg'>
+          <div class='modal-content' style="height: 500px;">
+            <div class='modal-body'>
+              <div class='row' style="height:100%">
+                <!-- Column for the picture -->
 
+                <div class='col-md-6' style="background: no-repeat center/80% url(images/Herb-Roasted-Cherry-Tomato-Pizza-1.jpg)">
+
+                </div>
+                <!-- Column for the newsletter signup form -->
+                <div class='col-md-6 modal-signup'>
+                  <!-- Newsletter Signup Form Here -->
+                  <form>
+                    <div class='mb-3'>
+                      <label for='emailInput' class='form-label'>Email address</label>
+                      <input
+                        type='email'
+                        class='form-control'
+                        id='emailInput'
+                        placeholder='Enter your email'
+                      />
+                    </div>
+                    <div>
+                    <a class="btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic " href="/signup">Sign Up</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class='modal-footer'>
+                {{!-- <a class="btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic ">Close</a> --}}
+              <button
+                type='button'
+                class='btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic'
+                data-bs-dismiss='modal'
+              >Close</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    {{!-- <button
+      type='button'
+      class='btn btn-primary'
+      data-bs-toggle='modal'
+      data-bs-target='#myModal'
+      id="modalButton"
+    >
+      Open Modal
+    </button> --}}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+   const modal = new bootstrap.Modal(document.getElementById('myModal')) 
+   // const modal = document.getElementById('myModal')
+    window.onload = function (){
+        setTimeout(function(){
+        modal.show()
+        }, 3000)
+    }
+    
+    
+    // modal.classList.add('show')
+    </script>
 
 
