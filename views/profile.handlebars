@@ -4,7 +4,35 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="trending-box p-4 border rounded">
+                <h3 class="mb-3">Your Recipes</h3>
+                <div class="row">
+                    {{#if recipes.length}}
+                    {{#each recipes as |recipe| }}
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{recipe.link_to_image}}" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h5>
+                                <p class="card-text">{{recipe.description}}</p>
+                                <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{{!-- <div class="container">
     <div class="meal-wrapper">
         <div class="meal-search">
             <h2 class="title">Your Recipes</h2>
@@ -34,4 +62,4 @@
         </div>
         {{/if}}
     </div>
-</div>
+</div> --}}
