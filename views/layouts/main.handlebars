@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
-
-
-
+.shadowww {
+  -webkit-box-shadow:0 3px 50px 0 rgba(0,0,0,.1);
+  box-shadow:0 3px 50px 0 rgba(0,0,0,.1);
+}
 a {
     color: #5F5E4A;
     text-decoration: none;
@@ -59,11 +60,11 @@ h1 {
             </div>
             <div class="col-md-3 text-md-right">
                 {{#if logged_in}}
-                <a class="btn mt-3 mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic" href="/profile">Profile</a>
-                <button class="btn mt-3 border border-dark darkcolbg lighttextcol fw-bold fst-italic" id="logout">Logout</button>
+                <a class="btn mt-3 mr-2 border border-dark darkcolbg lighttextcol shadowww fw-bold fst-italic" href="/profile">Profile</a>
+                <button class="btn mt-3 border border-dark darkcolbg lighttextcol shadowww fw-bold fst-italic" id="logout">Logout</button>
                 {{else}}
-                <a class="btn mt-3 mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic " href="/login">Login</a>
-                <a class="btn mt-3 border border-dark darkcolbg lighttextcol fw-bold fst-italic" href="/signup">Sign Up</a>
+                <a class="btn mt-3 mr-2 border border-dark darkcolbg lighttextcol shadowww fw-bold fst-italic " href="/login">Login</a>
+                <a class="btn mt-3 border border-dark darkcolbg lighttextcol shadowww fw-bold fst-italic" href="/signup">Sign Up</a>
                 {{/if}}
             </div>
         </div>
