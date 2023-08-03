@@ -4,10 +4,6 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
-    console.log("name is ", req.body.name);       
-    console.log("link is ", req.body.link_to_recipe);       
-    console.log("pic is ", req.body.link_to_image);       
-
     const newRecipe = await Recipe.create({
       name: req.body.name,
       description: req.body.description,

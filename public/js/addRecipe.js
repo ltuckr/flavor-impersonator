@@ -7,9 +7,6 @@ const newFormHandler = async (event) => {
     const instructions = document.querySelector('#recipeDirections').value.trim();
     const link_to_recipe = document.querySelector('#recipeLink').value.trim();
     const link_to_image = document.querySelector('#recipeImageLink').value.trim();
-    console.log("name is ", name);       
-    console.log("link is ", link_to_recipe);       
-    console.log("pic is ", link_to_image);       
   
     if (name && description && ingredients && instructions) {
       const response = await fetch(`/api/recipes`, {
