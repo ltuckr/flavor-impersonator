@@ -3,13 +3,24 @@
 </div>
 <div class="recipe">
   <input type="hidden" name="recipe-id" id="recipe-id" value="{{id}}"/>
-  <div class="display-flex justify-space-between recipe-header">
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="{{link_to_image}}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title"><a href="/recipe/{{id}}">{{name}}</a></h5>
+            <p class="card-text">{{description}}</p>
+            <p>Created by {{user.name}} on {{format_date date_created}}</p>
+        </div>
+    </div>
+</div>
+
+  {{!-- <div class="display-flex justify-space-between recipe-header">
     <h2>{{name}}</h2>
     <p class="recipe-byline">Created by {{user.name}} on {{format_date date_created}}</p>
   </div>
   <div class="descrip">
     <p>{{description}}</p>
-  </div>
+  </div> --}}
 </div>
 
 <div class="comment-list-title">
