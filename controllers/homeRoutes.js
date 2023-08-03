@@ -121,7 +121,7 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-router.get('/submit-recipes', async (req, res) => {
+router.get('/submit-recipes', withAuth, async (req, res) => {
   try {
     // get all Recipes and JOIN with user data
     const recipeData = await Recipe.findAll({

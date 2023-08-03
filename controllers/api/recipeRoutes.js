@@ -4,9 +4,17 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
   try {
+    console.log("name is ", req.body.name);       
+    console.log("link is ", req.body.link_to_recipe);       
+    console.log("pic is ", req.body.link_to_image);       
+
     const newRecipe = await Recipe.create({
       name: req.body.name,
       description: req.body.description,
+      ingredients: req.body.ingredients,
+      instructions: req.body.instructions,
+      link_to_recipe: req.body.link_to_recipe,
+      link_to_image: req.body.link_to_image,
       user_id: req.session.user_id,
     });
 
