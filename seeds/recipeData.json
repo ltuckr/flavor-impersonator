@@ -38,6 +38,15 @@
   },
   
     {
+      "name": "Copycat Chipotle Chicken Burrito Bowl",
+      "description": "Make your own Chipotle-style chicken burrito bowl at home with this easy recipe.(As seen on THE SPRUCE EATS)",
+      "ingredients": "Boneless chicken thighs, Lime juice, Garlic, Cumin, Paprika, Salt, Black pepper, Cooking oil, Cooked rice, Black beans, Corn, Salsa, Avocado, Sour cream, Fresh cilantro",
+      "instructions": "1. Marinate chicken thighs in lime juice, garlic, cumin, paprika, salt, and black pepper. \n2. Heat cooking oil in a skillet and cook the marinated chicken until done. \n3. In a bowl, layer cooked rice, black beans, corn, and cooked chicken. \n4. Top with salsa, sliced avocado, sour cream, and fresh cilantro.",
+      "link_to_recipe": "https://www.thespruceeats.com/copycat-chipotle-chicken-burrito-bowl-4173869",
+      "link_to_image": "https://easychickenrecipes.com/wp-content/uploads/2023/05/copycat-chipotle-burrito-bowls-7-of-7-edited-768x1024.jpg",
+      "date_created": "03-05-2023"
+    },
+    {
       "name": "Copycat KFC Fried Chicken",
       "description": "Crispy and flavorful fried chicken just like KFC's secret recipe.(As seen on COPYKAT)",
       "ingredients": "Chicken pieces, All-purpose flour, Salt, Paprika, Onion powder, Garlic powder, Dried thyme, Dried basil, Dried oregano, Black pepper, Buttermilk, Cooking oil",

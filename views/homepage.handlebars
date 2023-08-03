@@ -20,17 +20,19 @@
 <div class="container py-4">
     <div class="row">
         <div class="col-md-8">
-            <div class="trending-box lightcolbg p-4 border rounded">
-                <h3 class="mb-3 textcol">Today's Featured!</h3>
+            <div class="trending-box lightcolbg p-4 shadowww darkbordcol border rounded">
+                <h3 class="mb-3 textcol fst-italic">Today's Featured!</h3>
                 <div class="row">
                     {{#each recipes as |recipe| }}
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
-                            <img class="card-img-top" src="{{recipe.link_to_image}}" alt="Card image cap">
+                            <a href="/recipe/{{recipe.id}}">
+                                <img class="card-img-top"  src="{{recipe.link_to_image}}" alt="Card image cap">
+                            </a>
                             <div class="card-body">
-                                <h5 class="card-title"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h5>
-                                <p class="card-text">{{recipe.description}}</p>
-                                <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
+                                <h5 class="card-title fw-bolder textcol "><a style="text-decoration: none !important" href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h5>
+                                <p class="card-text fw-bold textcol ">{{recipe.description}}</p>
+                                <p class=" textcol ">Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
                             </div>
                         </div>
                     </div>
@@ -39,8 +41,8 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="trending-box p-4 lightcolbg border rounded">
-                <h3 class="mb-3 textcol">Join us!</h3>
+            <div class="trending-box p-4 shadowww lightcolbg border rounded">
+                <h3 class="mb-3 textcol text-center fst-italic">Join us!</h3>
                 <div class="row">
                     <div class="col-md-12 mb-4">
                         <div class="card">
@@ -57,6 +59,75 @@
     </div>
 </div>
 
+<div class='modal' id="myModal" tabindex='-1' role='dialog' style="transition: :all 1s ease-out;">
+        <div class='modal-dialog modal-dialog-centered modal-lg'>
+          <div class='modal-content' style="height: 500px;">
+            <div class='modal-body'>
+              <div class='row' style="height:100%">
+                <!-- Column for the picture -->
+
+                <div class='col-md-6' style="background: no-repeat center/130% url(images/Herb-Roasted-Cherry-Tomato-Pizza-1.jpg)">
+
+                </div>
+                <!-- Column for the newsletter signup form -->
+                <div class='col-md-6 modal-signup'>
+                  <!-- Newsletter Signup Form Here -->
+                  <form>
+                    <div class='mb-3'>
+                      <div class="row align-items-center" style="font-family: 'Pacifico', cursive;">
+                      <label for='emailInput' class='form-label'>Easy and Healthy, don't miss out!</label>
+                      <input
+                        type='email'
+                        class='form-control'
+                        id='emailInput'
+                        placeholder='Enter your email'
+                      />
+                    </div>
+                    </div>
+                    <div>
+                    <a class="btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic " href="/signup">Sign Up</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class='modal-footer'>
+                {{!-- <a class="btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic ">Close</a> --}}
+              <button
+                type='button'
+                class='btn mr-2 border border-dark darkcolbg lighttextcol fw-bold fst-italic'
+                data-bs-dismiss='modal'
+              >Close</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
 
 
+    {{!-- <button
+      type='button'
+      class='btn btn-primary'
+      data-bs-toggle='modal'
+      data-bs-target='#myModal'
+      id="modalButton"
+    >
+      Open Modal
+    </button> --}}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+   const modal = new bootstrap.Modal(document.getElementById('myModal')) 
+   // const modal = document.getElementById('myModal')
+    window.onload = function (){
+        setTimeout(function(){
+        modal.show()
+        }, 3000)
+    }
+    
+    
+    // modal.classList.add('show')
+    </script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
 
