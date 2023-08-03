@@ -1,14 +1,19 @@
 <div class="row">
-    <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <div class="col-md-8">
+        <div class="cardContainer darkcolbg border rounded col-md-10">
+        <div class="meal-wrapper p-2">        
+            <div class="cardMeal-search">
+                <h3 class="cardTitle lighttextcol fst-italic" style="margin-top: 5px; margin-left: 10px;">Welcome, {{name}}!</h3>
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="container py-4">
     <div class="row">
         <div class="col-md-8">
-            <div class="trending-box p-4 border rounded">
-                <h3 class="mb-3">Your Recipes</h3>
+            <div class="trending-box lightcolbg p-4 border rounded">
+                <h3 class="mb-3 fst-italic textcol">Your Recipes</h3>
                 <div class="row">
                     {{#if recipes.length}}
                     {{#each recipes as |recipe| }}
