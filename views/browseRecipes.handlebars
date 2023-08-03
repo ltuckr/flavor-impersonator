@@ -1,73 +1,42 @@
 <div class="cardContainer">
-  <div class="meal-wrapper">
-    <div class="cardMeal-search">
-      <h2 class="cardTitle">Find Recipes for Your Ingredients</h2>
-      <form class="form search-form">
-        <div class="form-group meal-search-box">
-          <input type="text" class="form-input cardSearch-control" placeholder="Enter an ingredient" id="search-input">
-          <button type="button" class="cardSearch-btn cardBtn" id="cardSearch-btn">
-            Search
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
+    <div class="meal-wrapper">        
+        <div class="cardMeal-search">
+            <h3 class="cardTitle textcol">Find Recipes for Your Ingredients</h3>
+            
+            <form class="form search-form">
+                <div class = "form-group meal-search-box">
+                    <input type = "text" class= "form-input mr-2 border cardSearch-control" placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class = "btn mr-2 border border-dark textcol fw-bold fst-italic" id="cardSearch-btn">
+                        Search
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </form>
         </div>
-      </form>
     </div>
-    <div class="meal-result">
-      <h2 class="title">Your search results:</h2>
-      <div id="meal">
-        {{#if recipes.length}}
-        {{#each recipes as |recipe|}}
-        <!-- Added the "animate__fadeInRight" class here- LAUREN -->
-        <div class="container{{#if buttonClicked}} animate__fadeInRight{{/if}}"
-          style="max-width: 600px; margin: 10px auto; float: left;">
-          <div
-            style="border: 1px solid black; border-radius: 10px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); padding: 10px; display: flex;">
-            <div class="col-md-4">
-              <img class="recipe-image" src="{{recipe.link_to_image}}" alt="Recipe Image"
-                style="max-width: 100%; height: auto;">
+</div>
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="trending-box p-4 border rounded">
+                <h3 class="mb-3 textcol ">Your search results:</h3>
+                <div class="animate__animated animate__bounce row">
+                    {{#each recipes as |recipe| }}
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="{{recipe.link_to_image}}" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h5>
+                                <p class="card-text">{{recipe.description}}</p>
+                                <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
             </div>
-            <div class="col-md-8" style="padding-left: 10px;">
-              <div style="display: flex; flex-direction: column; height: 100%;">
-                <h3 style="margin-bottom: 10px;"><a href="/recipe/{{recipe.id}}">{{recipe.name}}</a></h3>
-                <p style="flex-grow: 1;">{{recipe.description}}</p>
-                <p style="margin-top: auto;">Created by {{recipe.user.name}} on {{format_date recipe.date_created}}
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-        {{/each}}
-        {{else}}
-        <p>No recipes found.</p>
-        {{/if}}
-      </div>
     </div>
-  </div>
 </div>
 
-<!--end template-->
-<!--begin ANIMATE functionality - LAUREN-->
-
 <script src="./js/browseRecipes.js"></script>
-<script>
-  // browseRecipes.js
-  document.addEventListener('DOMContentLoaded', function () {
-    let buttonClicked = false;
-    const searchButton = document.getElementById('cardSearch-btn');
-
-    // Add click event listener search button
-    searchButton.addEventListener('click', function () {
-      // Toggle
-      buttonClicked = !buttonClicked;
-
-      // Get all the recipe containers
-      const recipeContainers = document.querySelectorAll('.container');
-
-      // Apply the animation class based on the buttonClicked state
-      recipeContainers.forEach((container) => {
-        container.classList.toggle('animate__fadeInRight', buttonClicked);
-      });
-    });
-  });
-</script>
-
