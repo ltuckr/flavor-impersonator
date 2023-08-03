@@ -1,14 +1,16 @@
 <div class="cardContainer">
-    <div class="meal-wrapper">
+    <div class="meal-wrapper">        
         <div class="cardMeal-search">
             <h2 class="cardTitle">Find Recipes for Your Ingredients</h2>
-            <div class = "meal-search-box">
-                <input type = "text" class= "cardSearch-control" placeholder="Enter an ingredient" id="search-input">
-                <button type="submit" class = "cardSearch-btn cardBtn" id="cardSearch-btn">
-                    Search
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-            </div>
+            <form class="form search-form">
+                <div class = "form-group meal-search-box">
+                    <input type = "text" class= "form-input cardSearch-control" placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class = "cardSearch-btn cardBtn" id="cardSearch-btn">
+                        Search
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </form>
         </div>
         <div class="meal-result">
             <h2 class = "title">Your search results:</h2>
@@ -36,3 +38,4 @@
     </div>
 </div>
 
+<script src="./js/browseRecipes.js"></script>
