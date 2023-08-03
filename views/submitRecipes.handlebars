@@ -18,14 +18,21 @@
 
 
 <!--Submit Recipe Form -->
-<div id="newRecipeForm" class="newRecipeForm" >
+<form id="newRecipeForm" class="newRecipeForm" >
     <h2>Submit Recipe</h2>
     
     <input class="submitRecipeInput" type="text" id="recipeTitle" placeholder="Enter recipe title here"required><br>
+    <input class="submitRecipeInput" type="text" id="recipeDescription" placeholder="Enter a short description here"required><br>
 
     <textarea class="submitRecipeText" id="recipeIngredients" placeholder="Enter ingredients here" required></textarea><br>
 
-    <textarea class="submitRecipeText" id="recipeIngredients" placeholder="Enter directions here" required></textarea><br>
+    <textarea class="submitRecipeText" id="recipeDirections" placeholder="Enter directions here" required></textarea><br>
+
+    <input class="submitRecipeInput" type="text" id="recipeLink" placeholder="OPTIONAL: Enter link to recipe here"><br>
+
+    <input class="submitRecipeInput" type="text" id="recipeImageLink" placeholder="OPTIONAL: Enter link to picure of recipe here"><br>
 
     <button id="submitRecipes">Submit Recipe</button>
-    </div>
+</form>
+
+<script src="/js/addRecipe.js"></script>
