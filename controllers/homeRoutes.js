@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Recipe, User } = require('../models');
+const { Recipe, User, Comments } = require('../models');
 const withAuth = require('../utils/auth');
 const { Sequelize } = require('sequelize');
 const Op = Sequelize.Op;
@@ -22,11 +22,13 @@ router.get('/', async (req, res) => {
     // Pass serialized data and session flag into template
     res.render('homepage', {
       recipes,
-      loggin_in: req.session.loggin_in,
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
   }
+  console.log(req.session.logged_in);
+
 });
 
 router.get('/recipes', async (req, res) => {
@@ -53,22 +55,24 @@ router.get('/recipes', async (req, res) => {
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
 
     // Pass serialized data and session flag into template
+    // console.log(logged_in, " and ", req.session.logged_in);
     res.render('browseRecipes', {
       recipes,
-      loggin_in: req.session.loggin_in,
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get('/recipe/:id', async (req, res) => {
+router.get('/recipe/:id', withAuth, async (req, res) => {
   try {
     const recipeData = await Recipe.findByPk(req.params.id, {
       include: [
+        User,
         {
-          model: User,
-          attributes: ['name'],
+          model: Comments,
+          include: [User],
         },
       ],
     });
@@ -76,9 +80,10 @@ router.get('/recipe/:id', async (req, res) => {
     const recipe = recipeData.get({ plain: true });
 
     // rendering the html through handlebars
+    // console.log(logged_in, " and ", req.session.logged_in);
     res.render('recipeDetails', {
       ...recipe,
-      loggin_in: req.session.loggin_in,
+      logged_in: true,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -138,7 +143,7 @@ router.get('/submit-recipes', withAuth, async (req, res) => {
     // Pass serialized data and session flag into template
     res.render('submitRecipes', {
       recipes,
-      loggin_in: req.session.loggin_in,
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
