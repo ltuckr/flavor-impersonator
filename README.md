@@ -1,7 +1,8 @@
 # flavor-impersonator
 
 # Description
-A copycat recipe app  that combines the use of Node.js, Express.js, Handlebars.js, MySQL, and Sequelize. It allows users to discover and share their favorite restaurant or famous dish recipes, replicating them at home. 
+Flavor Impersonator is a user-friendly platform where food enthusiasts can share and discover their favorite recipes from popular restaurants or famous dishes. By leveraging the power of Node.js, Express.js, Handlebars.js, MySQL,Sequelize, Bootstrap and Animate.css, we will deliver a secure and efficient web application that meets the needs of recipe enthusiasts. This project promises to be an exciting endeavor that celebrates the joy of cooking and sharing delicious meals.
+
 
 
 ## Table of Contents
@@ -62,30 +63,18 @@ To install and run the Employee Tracker, follow these steps: <br>
 - https://developer.mozilla.org/en-US/
 - https://www.youtube.com/
 - https://stackoverflow.com/
-- https://helmetjs.github.io/
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-- https://blog.logrocket.com/using-helmet-node-js-secure-application/
-
-
-## Technology <a name="technology"></a>
-
-Helmet.js - A helpful Node.js package that enables you to secure HTTP headers returned by your Express apps, in this case, a Content Security Policy, which can assist in preventing Cross-Site Scripting (XSS) and other attacks by defining which sources can load resources onto your web page. Scripts, stylesheets, and pictures are a few examples of the types of external content that can be accepted or blocked by changing their CSP headers.
-
-
 
 ## License <a name="license"></a>
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contact <a name="contact"></a>
+## Contact <a name="contact">FlavorImpersonators@FI.com</a>
 
+## Screenshots
 
+## Deployed Site <a name="deployedsite">https://flavor-impersonator-2e87d3d63575.herokuapp.com/</a>
 
-## Demo <a name="Demo"></a>
-
-## Deployed Site <a name="deployedsite"></a>
-
-## Repository <a name="repository"></a>
+## Repository <a name="repository">https://github.com/ltuckr/flavor-impersonator</a>
 
 ## Tools<a name="Tools"></a>
 
