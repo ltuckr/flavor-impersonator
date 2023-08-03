@@ -1,49 +1,67 @@
-<div class="page-title-container">
-<h1 class="page-title p-2">Recipe details</h1>
-</div>
-<div class="recipe">
-  <input type="hidden" name="recipe-id" id="recipe-id" value="{{id}}"/>
-  <div class="col-md-4 mb-4">
-    <div class="card h-100">
-        <img class="card-img-top" src="{{link_to_image}}" alt="Card image cap">
+<style>
+  .btn-custom {
+  background-color: transparent;
+  border: none;
+  color: #e57373; /* Your desired text color */
+  font-size: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+<div>
+  <div class="recipe">
+    <input type="hidden" name="recipe-id" id="recipe-id" value="{{id}}" />
+    <div class="col-md-10 mb-2 mt-3">
+      <div class="card h-100">
         <div class="card-body">
-            <h5 class="card-title"><a href="/recipe/{{id}}">{{name}}</a></h5>
-            <p class="card-text">{{description}}</p>
-            <p>Created by {{user.name}} on {{format_date date_created}}</p>
+          <div class="row">
+            <div class="col-md-4">
+              <img class="card-img-top" src="{{link_to_image}}" alt="Card image cap">
+            </div>
+            <div class="col-md-8">
+              <h5 class="card-title"><a href="/recipe/{{id}}">{{name}}</a></h5>
+              <p class="card-text">{{description}}</p>
+              <p class="card-text-ingredients">Ingredients: {{ingredients}}</p>
+              <p class="card-text-instructions">Instructions: {{instructions}}</p>
+              <p>Created by {{user.name}} on {{format_date date_created}}</p>
+              <p>Recipe link: <a href="{{link_to_recipe}}">{{link_to_recipe}}</a></p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-
-  {{!-- <div class="display-flex justify-space-between recipe-header">
-    <h2>{{name}}</h2>
-    <p class="recipe-byline">Created by {{user.name}} on {{format_date date_created}}</p>
-  </div>
-  <div class="descrip">
-    <p>{{description}}</p>
-  </div> --}}
-</div>
-
-<div class="comment-list-title">
-    <p><strong>COMMENTS:</strong></p>
-</div>
-<!-- Loop over each object in the comments array -->
-{{#each comments as |comment| }}
-<div class="comment-container">
-  <div class="flex-column justify-space-between">
-    <p>{{comment.content}}</p>
-    <p>~ {{comment.user.name}} on {{format_date comment.date_created}}</p>
   </div>
 </div>
-{{/each}}
-
-<form class="form new-comment-form">
-  <div class="form-group">
-    <label for="comment-content">New Comment</label>
-    <textarea class="form-input" id="comment-content" name="comment-content"></textarea>
+<div class="row d-flex">
+  <div class="col-md-8 col-lg-6">
+    <div class="card shadow-0 border" style="background-color: #f0f2f5;">
+      <div class="card-body p-4">
+        <form class="form new-comment-form mb-4">
+          <div class="form group">
+              <input type="text" id="comment-content" class="form-control" placeholder="Type comment..." />
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-custom">+ Add comment</button>
+          </div>
+        </form>
+          {{#each comments as |comment| }}
+            <div class="card mb-4">
+              <div class="card-body">
+                <p>{{comment.content}}</p>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-row align-items-center">
+                    <p class="small mb-0 ms-2">~ {{comment.user.name}} on {{format_date comment.date_created}}</p>
+                  </div>
+                </div>
+              </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="form-group">
-    <button type="submit" class="btn btn-primary submit-button">Add comment</button>
-  </div>
-</form>
+</div>
 
-<script src="../js/addComment.js"></script>
+  <script src="../js/addComment.js"></script> 
+
