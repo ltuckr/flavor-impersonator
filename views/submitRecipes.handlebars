@@ -2,50 +2,56 @@
     /*Submit Recipe page */
 .newRecipeForm{
     text-align: center; 
-    margin-top: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 h2{
     font-size: 30px;
-    font-family: 'Pacifico', cursive;
     color: #5F5E4A;
     margin: 0;
 }
 
 .submitRecipeInput{
-    width: 40%;
+    width: 20%;
     margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .submitRecipeText{
-    width: 40%;
+    width: 80%;
     height: 300px;
     margin: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 #submitRecipes{
 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+margin-bottom: 20px;
 
+}
+.submitRecipeInput{
+    width: 60%;
 }
 </style>
 
 <!--Submit Recipe Form -->
-<form id="newRecipeForm" class="newRecipeForm submitRecipeTitle" >
-    <h2>Submit Recipe</h2>
-    
-    <input class="submitRecipeInput" type="text" id="recipeTitle" placeholder="Enter recipe title here"required><br>
+<form id="newRecipeForm" class="border rounded lightcolbg col-md-8 newRecipeForm submitRecipeTitle" >
+    <div class="animate__animated animate__fadeInRight">
+        <h2 class="mt-2">Submit Recipe</h2>
+        
+        <input class="submitRecipeInput rounded" type="text" id="recipeTitle" placeholder="Enter recipe title here"required><br>
 
-    <input class="submitRecipeInput" type="text" id="recipeDescription" placeholder="Enter a short description here"required><br>
+        <input class="submitRecipeInput rounded" type="text" id="recipeDescription" placeholder="Enter a short description here"required><br>
 
-    <input class="submitRecipeInput" type="text" id="recipeImageLink" placeholder="Enter link to picure of recipe here"><br>
+        <input class="submitRecipeInput rounded" type="text" id="recipeImageLink" placeholder="Enter link to picure of recipe here"><br>
 
-    <textarea class="submitRecipeText" id="recipeIngredients" placeholder="Enter ingredients here" required></textarea><br>
+        <textarea class="submitRecipeText rounded" id="recipeIngredients" placeholder="Enter ingredients here" required></textarea><br>
 
-    <textarea class="submitRecipeText" id="recipeDirections" placeholder="Enter directions here" required></textarea><br>
+        <textarea class="submitRecipeText rounded" id="recipeDirections" placeholder="Enter directions here" required></textarea><br>
 
-    <input class="submitRecipeInput" type="text" id="recipeLink" placeholder="Enter link to recipe here"><br>
+        <input class="submitRecipeInput rounded" type="text" id="recipeLink" placeholder="Enter link to recipe here"><br>
 
-    <button id="submitRecipes">Submit Recipe</button>
+        <button class="rounded" id="submitRecipes">Submit Recipe</button>
+    </div>
 </form>
 
 <script src="/js/addRecipe.js"></script>
