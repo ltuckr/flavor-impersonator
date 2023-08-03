@@ -1,11 +1,12 @@
 <div class="cardContainer">
     <div class="meal-wrapper">        
         <div class="cardMeal-search">
-            <h2 class="cardTitle">Find Recipes for Your Ingredients</h2>
+            <h3 class="cardTitle textcol">Find Recipes for Your Ingredients</h3>
+            
             <form class="form search-form">
                 <div class = "form-group meal-search-box">
-                    <input type = "text" class= "form-input cardSearch-control" placeholder="Enter an ingredient" id="search-input">
-                    <button type="submit" class = "cardSearch-btn cardBtn" id="cardSearch-btn">
+                    <input type = "text" class= "form-input mr-2 border cardSearch-control" placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class = "btn mr-2 border border-dark textcol fw-bold fst-italic" id="cardSearch-btn">
                         Search
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
@@ -18,8 +19,8 @@
     <div class="row">
         <div class="col-md-8">
             <div class="trending-box p-4 border rounded">
-                <h3 class="mb-3">Your search results:</h3>
-                <div class="row">
+                <h3 class="mb-3 textcol ">Your search results:</h3>
+                <div class="animate__animated animate__fadeInRight row">
                     {{#each recipes as |recipe| }}
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
