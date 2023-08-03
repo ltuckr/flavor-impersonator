@@ -18,6 +18,12 @@ h1 {
     color: #5F5E4A;
     margin: 0;
 }
+.lightcolbg {
+    background-color: #f7f6f3;
+}
+.textcol {
+    color: #5F5E4A;
+}
 
     </style>
 </head>
@@ -34,16 +40,16 @@ h1 {
                 <a class="btn btn-outline mr-2" href="/profile">Profile</a>
                 <button class="btn btn-outline" id="logout">Logout</button>
                 {{else}}
-                <a class="btn mr-2 border border-dark" href="/login">Login</a>
-                <a class="btn border border-dark" href="/signup">Sign Up</a>
+                <a class="btn mr-2 border border-dark textcol fw-bold fst-italic" href="/login">Login</a>
+                <a class="btn border border-dark textcol fw-bold fst-italic" href="/signup">Sign Up</a>
                 {{/if}}
             </div>
         </div>
 
 
-<nav class="navbar navbar-expand-md navbar-light bg-light mt-4">
+<nav class="navbar navbar-expand-md lightcolbg mt-4">
         <div class="container">
-            <div class="navbar-collapse">
+            <div class="navbar-collapse navbarcol">
                 <ul class="navbar-nav flex-column flex-md-row">
                     <li class="nav-item">
                         <a class="nav-link" href="/">Home</a>
