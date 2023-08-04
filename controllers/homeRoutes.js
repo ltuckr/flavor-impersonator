@@ -75,6 +75,10 @@ router.get('/recipe/:id', withAuth, async (req, res) => {
           include: [User],
         },
       ],
+      order: [
+        [Comments, 'date_created', 'DESC']
+      ],    
+
     });
     // organizing the data
     const recipe = recipeData.get({ plain: true });
@@ -96,7 +100,10 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.user_id, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Recipe }],
+      include: [{ 
+        model: Recipe,
+        include: [User],
+      }],
     });
     const user = userData.get({ plain: true });
     res.render('profile', {
