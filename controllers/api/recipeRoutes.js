@@ -22,8 +22,6 @@ router.post('/', withAuth, async (req, res) => {
 
 router.put('/:id', withAuth, async (req, res) => {
   try {
-    console.log("inside put route, Recipe id is " + req.params.id);
-
     const updatedRecipe = await Recipe.update(
       {
       name: req.body.name,

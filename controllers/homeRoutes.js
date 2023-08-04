@@ -27,7 +27,6 @@ router.get('/', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  console.log(req.session.logged_in);
 
 });
 
@@ -55,7 +54,6 @@ router.get('/recipes', async (req, res) => {
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    // console.log(logged_in, " and ", req.session.logged_in);
     res.render('browseRecipes', {
       recipes,
       logged_in: req.session.logged_in,
@@ -84,7 +82,6 @@ router.get('/recipe/:id', withAuth, async (req, res) => {
     const recipe = recipeData.get({ plain: true });
 
     // rendering the html through handlebars
-    // console.log(logged_in, " and ", req.session.logged_in);
     res.render('recipeDetails', {
       ...recipe,
       logged_in: true,

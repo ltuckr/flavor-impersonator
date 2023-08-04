@@ -4,7 +4,6 @@ const newFormHandler = async (event) => {
 
   const recipe_id = document.querySelector('#recipe-id').value;
   const content = document.querySelector('#comment-content').value.trim();
-  console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& hit submit: comment-content=" + content + "for recipe-id=" + recipe_id);
   
   if (content) {
     const response = await fetch('/api/comments', {
