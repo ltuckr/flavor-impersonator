@@ -1,4 +1,12 @@
 <style>
+  #add-comment-btn {
+   border: none;  
+}
+#add-comment-btn:hover {
+    background-color: rgb(207, 207, 196);
+    border: none;
+    color: black;
+}
   .btn-custom {
   background-color: transparent;
   border: none;
@@ -47,9 +55,9 @@
               </div>
               <div class="form-group">
                   {{#if logged_in}}
-                    <button type="submit" class="btn btn-primary darkbordcol darkcolbg submit-button">Add comment</button>
+                    <button type="submit" class="btn btn-primary darkbordcol darkcolbg submit-button" id="add-comment-btn">Add comment</button>
                   {{else}}
-                    <button type="submit" class="btn btn-primary submit-button" disabled>Add comment</button>
+                    <button type="submit" class="btn btn-primary darkbordcol darkcolbg submit-button" id="add-comment-btn" disabled>Add comment</button>
                     <p>Login to add comments</p>
                   {{/if}}
               </div>
