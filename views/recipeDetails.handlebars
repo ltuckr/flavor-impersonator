@@ -23,10 +23,12 @@
             <div class="col-md-8">
               <h5 class="card-title"><a href="/recipe/{{id}}">{{name}}</a></h5>
               <p class="card-text">{{description}}</p>
-              <p class="card-text-ingredients">Ingredients: {{ingredients}}</p>
-              <p class="card-text-instructions">Instructions: {{instructions}}</p>
+              <p>Ingredients:</p>
+              <p class="card-text-ingredients" style="white-space: pre-wrap;">{{ingredients}}</p>
+              <p>Instructions:</p>
+              <p class="card-text-instructions" style="white-space: pre-wrap;">{{instructions}}</p>
               <p>Created by {{user.name}} on {{format_date date_created}}</p>
-              <p>Recipe link: <a href="{{link_to_recipe}}">{{link_to_recipe}}</a></p>
+              <p>Recipe link: <a href="{{link_to_recipe}}"><strong>{{link_to_recipe}}</strong></a></p>
             </div>
           </div>
         </div>
@@ -62,8 +64,8 @@
                   </div>
                 </div>
               </div>
-          {{/each}}
-        </div>
+            </div>
+        {{/each}}
       </div>
     </div>
   </div>
