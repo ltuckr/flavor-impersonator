@@ -21,14 +21,14 @@
               <img class="card-img-top" src="{{link_to_image}}" alt="Card image cap">
             </div>
             <div class="col-md-8">
-              <h5 class="card-title"><a href="/recipe/{{id}}">{{name}}</a></h5>
+              <h5 class="single-card-title">{{name}}</h5>
               <p class="card-text">{{description}}</p>
               <p>Ingredients:</p>
               <p class="card-text-ingredients" style="white-space: pre-wrap;">{{ingredients}}</p>
               <p>Instructions:</p>
               <p class="card-text-instructions" style="white-space: pre-wrap;">{{instructions}}</p>
               <p>Created by {{user.name}} on {{format_date date_created}}</p>
-              <p>Recipe link: <a href="{{link_to_recipe}}"><strong>{{link_to_recipe}}</strong></a></p>
+              <p class="card-link">Recipe link: <a href="{{link_to_recipe}}"><strong>{{link_to_recipe}}</strong></a></p>
             </div>
           </div>
         </div>
@@ -71,5 +71,5 @@
   </div>
 </div>
 
-  <script src="../js/addComment.js"></script> 
+<script src="../js/addComment.js"></script> 
 
