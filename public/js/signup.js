@@ -15,7 +15,12 @@ const signupFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/profile');
     } else {
-      alert(response.statusText);
+      const data = await response.json();
+      if (data.errors.length > 0) {
+        alert(data.errors[0].message);
+      } else {
+        alert('Failed to signup');
+      }
     }
   }
 };

@@ -30,13 +30,17 @@ Recipe.init(
     link_to_image: {
       type: DataTypes.TEXT,
       validate: {
-        isUrl: true,
+        isUrl: {
+          msg: 'Must be a valid link to an image'
+        }
       },
     },
     link_to_recipe: {
       type: DataTypes.TEXT,
       validate: {
-        isUrl: true,
+        isUrl: {
+          msg: 'Must be a valid link to a recipe'
+        }
       },
     },
     date_created: {
