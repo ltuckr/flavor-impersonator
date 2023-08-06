@@ -20,7 +20,12 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/profile');
       } else {
-        alert('Failed to create recipe');
+        const data = await response.json();
+        if (data.errors.length > 0) {
+          alert(data.errors[0].message);
+        } else {
+          alert('Failed to create recipe');
+        }
       }
     }
 };

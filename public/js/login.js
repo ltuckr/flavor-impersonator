@@ -17,7 +17,7 @@ const loginFormHandler = async (event) => {
       // If successful, redirect the browser to the dashboard page
       document.location.replace('/profile');
     } else {
-      alert(response.statusText);
+      alert('Invalid user name and/or password');
     }
   }
 };
