@@ -7,24 +7,25 @@ Flavor Impersonator is a user-friendly platform where food enthusiasts can share
 
 ## Table of Contents
 
-- [Key Features](#key-features):key:
-- [Installation](#installation):computer:
-- [Usage](#usage):calling:
-- [Contributing](#contributing):scroll:
-- [Sources](#sources):mag_right:
-- [Demo](#Demo):film_frames:
-- [License](#license):credit_card:
-- [Contact](#contact):envelope_with_arrow:
-- [Deployed Site](#deployedsite):abacus:
-- [Repository](#repository):open_file_folder:
-- [Tools](#Tools):hammer_and_wrench:
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [App landing page](#app-landing-page)
+- [Contributing](#contributing)
+- [Sources](#sources)
+- [License](#license)
+- [Contact](#contact)
+- [Deployed Site](#deployed-site)
+- [Repository](#repository)
+- [Technologies used](#technologies-used)
 
-## Key Features <a name="key-features"></a>
+
+## **Key Features** 
 
 - animate.css effect
 - modal
 
-## Installation <a name="installation"></a>
+## **Installation**
 
 To install and run Flavor Impersonator, follow these steps: <br>
 
@@ -36,7 +37,7 @@ To install and run Flavor Impersonator, follow these steps: <br>
 6. Start the application: `npm start`.
 7. Open your web browser and access the application at [http://localhost:3001](http://localhost:3001).
 
-## Usage <a name="usage"></a>
+## **Usage** 
 
 1. Login
 
@@ -52,14 +53,20 @@ To install and run Flavor Impersonator, follow these steps: <br>
 
 7. Comment on a recipe
 
-## Contributing <a name="contributing"></a>
+<br/>
+
+## **App landing page**
+![Flavor Impersonator landing page](./public/images/Flavor_Impersonator_homepage.png)
+
+
+## **Contributing**
 
 1. Fork the repository on GitHub.
 2. Create a new branch with a descriptive name: `git checkout -b my-branch`
 3. Make the necessary changes and commit them: ` git commit -m "Description of changes"`
 4. Push your changes to your forked repository: `git push origin my-branch`
 
-## Sources<a name="Sources"></a>
+## **Sources**
 
 - https://developer.mozilla.org/en-US/
 - https://www.youtube.com/
@@ -76,17 +83,23 @@ To install and run Flavor Impersonator, follow these steps: <br>
 
 
 
-## License <a name="license"></a>
+## **License**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contact <a name="contact">FlavorImpersonators@FI.com</a>
+## **Contact** 
+<a name="contact">FlavorImpersonators@FI.com</a>
 
-## Deployed Site <a name="deployedsite">https://flavor-impersonator-2e87d3d63575.herokuapp.com/</a>
+## **Deployed Site** 
+<a name="deployedsite">https://flavor-impersonator-2e87d3d63575.herokuapp.com/</a>
 
-## Repository <a name="repository">https://github.com/ltuckr/flavor-impersonator</a>
+## **Repository** 
+<a name="repository">https://github.com/ltuckr/flavor-impersonator</a>
 
-## Tools<a name="Tools"></a>
+<br/>
+
+## **Technologies used**
+Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, MVC paradigm, authentication (express-session and cookies), bcrypt, Bootstrap and Animate.css, deployed using Heroku.
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
